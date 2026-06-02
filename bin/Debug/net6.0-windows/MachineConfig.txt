@@ -1,0 +1,14 @@
+Annual QA Path: C:\Users\wd977346\OneDrive - Siemens Healthineers\Desktop\DoseX Test\Test123\Annual_Jun_2024\TB_ExpandedAnnualV8__WithGraphs 06-05-2024.xlsx
+Machine Name: Test123
+Machine Type: TrueBeam
+Selected Energies:
+- 6x
+- 6xfff
+- 10x
+- 10xfff
+- 15x
+- 6e
+- 9e
+- 12e
+- 16e
+- 20e
