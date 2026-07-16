@@ -1,0 +1,698 @@
+
+
+--- PAGE 1 ---
+moc.yrtemisod-abi
+DOSE-X
+Reference Guide
+
+--- PAGE 2 ---
+DOSE-X Reference Guide
+
+--- PAGE 3 ---
+Notice
+This document is an integral part of the DOSE-X system and should always be kept at hand. If the document
+is missing, immediately contact the IBA Dosimetry GmbH for a copy.
+No part of the accompanying documentation may be translated or reproduced without written permission
+of IBA Dosimetry unless reproduction is carried out for the sole purpose of being used by several people in
+the same department.
+The user must treat the accompanying documentation like any other copyrighted material. If part of the
+accompanying documentation is provided in electronic form, these files shall not be modified in any way.
+IBA Dosimetry and its suppliers retain title and all ownership rights to the accompanying documentation (in
+either electronic or printed form).
+IBA Dosimetry GmbH
+Bahnhofstrasse 5
+DE-90592 Schwarzenbruck
+Germany
+Phone: +49 9128 607-0
+http://www.iba-dosimetry.com
+Last update: 2023-08-07
+Documentation ID: MR-2023-0003-510-001r 01
+© 2023 IBA Dosimetry GmbH, Schwarzenbruck
+About this Reference Guide
+The DOSE-X Reference Guide is a supplement to the DOSE-X Instructions for Use.
+It contains information on the algorithms used for measurements, device troubleshooting, and country
+specific RF symbols. For general information, including the health and safety precautions, and detailed
+functionality descriptions, please refer to DOSE-X Instructions for Use.
+DOSE-X Reference Guide | Notice | i
+
+--- PAGE 4 ---
+Table of Contents
+1. Algorithms ................................................................................................ 1
+1.1. Temperature and Pressure Correction .................................................................................................1
+1.2. Application of Calibration and Correction Factors ...............................................................................1
+1.3. Background Compensation ................................................................................................................2
+1.4. Current Measurement ........................................................................................................................2
+1.5. Charge Measurement .........................................................................................................................3
+1.6. Average Dose Rate .............................................................................................................................3
+2. DOSE-X API Documentation ..................................................................... 4
+2.1. Availability ..........................................................................................................................................4
+2.2. General Message Structure ................................................................................................................4
+2.3. Authentication ...................................................................................................................................4
+2.3.1. Sessions .......................................................................................................................................4
+2.3.2. Control Token ..............................................................................................................................4
+2.3.3. Admin authentication ..................................................................................................................5
+2.3.4. Resetting the Admin password ....................................................................................................5
+2.4. Configuration Items ...........................................................................................................................5
+2.5. Functional Blocks ..............................................................................................................................6
+2.5.1. Properties of the Firmware ...........................................................................................................6
+2.5.2. Device FRAM ................................................................................................................................6
+2.5.3. Measurement ...............................................................................................................................7
+2.5.3.1. Peak Value ..............................................................................................................................7
+2.5.3.2. Measurement .........................................................................................................................7
+2.6. List of Configuration Items ...............................................................................................................10
+2.7. List of Known Commands .................................................................................................................13
+3. Troubleshooting ......................................................................................14
+4. Country Specific RF Symbols ..................................................................15
+5. Technical Support .................................................................................. 19
+5.1. Contacts for Technical Support .........................................................................................................19
+5.2. Reporting Complaints and Incidents .................................................................................................19
+5.3. Returning Device for Repair ..............................................................................................................19
+ii | Table of Contents | DOSE-X Reference Guide
+
+--- PAGE 5 ---
+1. Algorithms
+1.1. Temperature and Pressure Correction
+The sensitivity of an ionization chamber is determined by the number of atoms in the active volume which
+are available for ionization. In the case of sealed chambers, this number is (at least in medium - term)
+constant, in the case of vented chambers it depends on air pressure and temperature. Therefore, the
+measured absolute dose value delivered by vented chambers must be corrected to compensate deviations
+due to the current air pressure and temperature conditions. Since there are worldwide two different
+reference temperatures in use, the applicable reference temperature is stored together with the chamber
+data. The correction is carried out according to the following equation:
+k = correction factor for temperature and pressure
+Tp
+p = actual air pressure in Pa
+p = reference pressure in Pa
+0
+T = actual temperature in K
+T = reference temperature in K
+0
+= actual air temparature in °C
+= reference air temperature in °C
+0
+1.2. Application of Calibration and Correction
+Factors
+Correction factors are usually the result of a multiplication of several single factors, each of which is used
+to correct the measured dose value for a specific detail. The user factor can be entered directly into the
+DOSE-X.
+The factors are applied according to the following equation:
+D = Dose reading
+= Dose rate reading
+Q = Charge reading
+I = Dose rate reading
+N = calibration factor
+D,W
+k = energy
+Q
+k = temperature and pressure
+Tp
+k = ionization
+S
+k = polarity
+pol
+k = user correction
+user
+DOSE-X Reference Guide | Algorithms | 1
+
+--- PAGE 6 ---
+Dose and Dose Rate
+Dose and dose rate are determined through measured charge and current according to the following
+equations:
+CF = conversion / correction factor
+corr
+D = actual dose
+act
+D' = actual dose rate
+act
+I = actual current
+act
+Q = actual charge
+act
+1.3. Background Compensation
+The background definition procedure measures all present leakage currents and stores the measured
+value. This is then subtracted from all subsequent dose measurements. The duration of the background
+measurement is set to 60 second by default for all three input sensitivity ranges and it is adjustable.
+It is possible to disable the background compensation. The measured background value remains in
+the memory, and the subtraction can later be activated again. The background value is shown in the
+Background pop up menu (Tap and hold the BACKGROUND button )
+Note: With the exception of special measurement tasks, always ensure that radiation is switched
+off before starting the background measurement.
+I = background current, as displayed in the background pop-up menu
+bkg
+Q = leakage charge collected during background measurement
+bkg
+t = duration of background measurement
+bkg
+1.4. Current Measurement
+The measuring channel is constantly collecting electrical current samples (I ) , with a sampling rate of
+meas
+1kHz. This value will be further compensated with background current values if the background subtraction
+is enabled. The value showing on the main screen during the measurement is a sliding average of current
+and, after the measurement, the average over the complete measurement. The measurement value during
+the measurement will be refreshed every 0.5 second. The current value displayed once the measurement is
+finished is the average current over the complete measurement duration.
+2 | Algorithms | DOSE-X Reference Guide
+
+--- PAGE 7 ---
+1.5. Charge Measurement
+While a measurement is ongoing, the background subtracted current is integrated over the measurement
+duration. The result of this integration is the measured charge Q. The display of the measured charge is
+updated every 0.5 seconds.
+Q : charge at the beginning of a measurement, Q = 0 when automatic reset is enabled (default), or the
+0 0
+value of the previous measurement when automatic reset is disabled.
+t : the measurement time for one measurement
+meas
+t : initial measurement time, t = 0 when automatic zeroing is enabled (default) the accumulated
+0 0
+measurement time of the previous measurement when automatic reset is disabled
+I : raw measured input current on the measurement channel
+meas
+I : calculated background current
+bkg
+Initial Dose (Radioactive Check Source)
+An initial dose measurement is performed when measuring a reference dose value with a detector for the
+first time, using a radioactive check source. This reference dose is determined in the way that it is always
+related to January 1st, 1970, 00:00 hours (midnight). Due to this convention, a separate storage of date and
+time together with the reference dose measurement becomes unnecessary.
+D = dose at reference time t
+0 0
+D = measured dose
+meas
+t = time (moment) of the measurement
+meas
+t = reference time: January 1st, 1970, 00:00 hours (midnight)
+0
+T = half life of the isotope used in the radioactive check source.
+1/2
+1.6. Average Dose Rate
+The average dose rate, i.e., the average of multiple measuements taken over a certain period of time, is
+calculated according to the following equation:
+D' = average dose rate
+avg
+D = measured dose
+meas
+t = measuring time
+meas
+DOSE-X Reference Guide | Algorithms | 3
+
+--- PAGE 8 ---
+2. DOSE-X API Documentation
+2.1. Availability
+To access the device remotely the item has to be initially enabled on the touchscreen UI
+Remote Access
+using System Settings > Network and turning on Allow remote control.
+■ The device exposes a WebUI on the default http(s) ports 80 and 443.
+■ The WebUI uses the API exposed as websocket on port 8081 (ws) and 8083 (wss).
+■ The device is discoverable using zeroconf providing the services and
+_ibadose-x._tcp _ibadose-
+. For that a mdns service is running on port 5353/udp.
+x-tls._tcp
+2.2. General Message Structure
+1. The server exposes a websocket API.
+2. The message format follows a simple format which is json based.
+3. Every message has a mandatory field to identify its purpose often followd by a field.
+cmd values
+2.3. Authentication
+There are two access levels available to the user:
+■ User (no authentication needed)
+■ Admin
+2.3.1. Sessions
+The User session ends when the websocket connection is closed.
+2.3.2. Control Token
+The User session ends when the websocket connection is closed.
+# Req
+{"cmd": "control", "value": "request"}
+# Resp
+{"cmd":"remote_status","values":{"blocked":false,"control":true}}
+4 | DOSE-X API Documentation | DOSE-X Reference Guide
+
+--- PAGE 9 ---
+2.3.3. Admin authentication
+The Admin password is set by the user on initial setup at the customer. It is required to access certain
+functionality like editing libraries or changing network configurations.
+# Req
+{ "cmd": "login", "password": "fooobar" }
+# Resp success
+{ "cmd": "login", "result": true }
+# Resp error
+{ "cmd": "login", "result": false }
+2.3.4. Resetting the Admin password
+The Admin Password can be reset by sending the instead of the password.
+recovery_token
+The token is generated using the following algorithm and requires the knowledge of the seed.
+base64.b64encode(hashlib.sha512(seed+b'recovery').digest())[0:10].
+# Req
+{ "cmd": "login", "password": "recovery_token" }
+# Resp
+{ "cmd": "value_update", "values": { "adminPasswordIsSet": false } }
+2.4. Configuration Items
+The central concept of the API are Configuration Items. Most Settings and States are represented using
+these commands.
+Reading Configuration Items:
+# Resp
+{ "cmd": "get_values",
+"values": [ "key1", "key2", ...]
+}
+# Resp
+{ "cmd":"value_init",
+"values": {"key1": "value",
+"key2": {"value": 1, "unit": "s"},
+...}
+}
+DOSE-X Reference Guide | DOSE-X API Documentation | 5
+
+--- PAGE 10 ---
+Setting Configuration Items:
+# Req
+{ "cmd": "change_values",
+"values": [ "key1": "value",
+"key2": "value",
+...}
+}
+# Req
+{ "cmd": "value_update",
+"values": [ "key1": "value",
+"key2": "value",
+...}
+}
+■ The calling client always gets a with the updated values.
+value_update
+■ Unknown keys or illegal values are silently ignored.
+■ might be broadcasted by the system when values change.
+value_updates
+2.5. Functional Blocks
+Functional Blocks are commands that are connected.
+2.5.1. Properties of the Firmware
+All fields are read-only.
+ID Datatype Description
+firmwareVersion String Version of the installed FW
+deviceInfo String Content for DeviceInfo Page
+2.5.2. Device FRAM
+ID Datatype Read Description
+Type of the Device, should currently always be
+deviceType string User
+DoseX
+serialNumber string User serial number as defined by production
+hardwareVersion string User Version of the HW, usually
+1.0
+productionDate int (seconds) User The Date of Production as timestamp in seconds
+6 | DOSE-X API Documentation | DOSE-X Reference Guide
+
+--- PAGE 11 ---
+2.5.3. Measurement
+The DOSE-X has a constantly measuring electrometer. Therefore, the device is permanently calculating the
+average current. Measurements are using the integrator to integrate a number of currents.
+2.5.3.1 Peak Value
+The API is sending the measured Peak Current every 200ms.
+{"cmd":"measurement_data", "values":{"peakValue": 3.051757735406113e-10}}
+2.5.3.2 Measurement
+Measurement Related Properties
+Properties changeable when token was acquired.
+ID Datatype Allowed Values Description
+measurementMode string , Mode that Integrator uses
+dose charge
+, , How the integrator is
+measurementStartType string manual timer
+started/stopped
+trigger
+Duration of measurement in
+measurementTimer int (milliseconds) --
+mode
+timer
+Reset integrator on start of
+autoReset bool --
+measurement
+Subtracts Background if
+backgroundSubtractionEnabled bool --
+available
+Runtime of a background
+backgroundMeasurementTime int (milliseconds) --
+measurement
+Comment to be stored with
+measurementComment string --
+the Result
+The sensitivity range to
+, , , be used. When is
+sensitivity string low mid high auto
+set the range selection is
+auto
+performed.
+Enable/Disable the HV
+highVoltageEnabled bool --
+Module
+{ "value":
+HV to be generated by the
+biasVoltage ValueUnit <+/-
+device.
+[50..550]>,
+"unit": "V" }
+,
+electrometerInput string floated Mode of the HV Module
+grounded
+Time the threshold needs
+{ "value":
+beamOnTime ValueUnit to be exceeded to consider
+>0, "unit":
+the Beam On
+"s" }
+DOSE-X Reference Guide | DOSE-X API Documentation | 7
+
+--- PAGE 12 ---
+ID Datatype Allowed Values Description
+{ "value": Time the threshold needs
+beamOffTime ValueUnit >0, "unit": to be exceeded to consider
+"s" } the Beam Off
+preTriggerTime Duration while values are
+{ "value":
+ValueUnit integrated before the beam
+>0, "unit":
+was considered On
+"s" }
+Duration while values are
+{ "value":
+postTriggerTime ValueUnit integrated after the beam
+>0, "unit":
+was considered Off
+"s" }
+Read-only properties:
+ID Data type Description
+measurementRunning bool --
+Formatted timestamp when the Background was
+backgroundCorrectionTimeStamp string
+measured
+beamOn Threshold string Threshold used in trigger mode formatted as 'A'
+Start a Measurement
+Start a Measurement. If is set to false the integrator will start with the result of the previous
+autoReset
+measurement.
+-> {"cmd": "measurement", "value": "start"}
+Measurement Data
+When a Measurement is running an update is sent every 500ms. The data may contain additional fields for
+UI purposes which can be ignored.
+Measurement Data in Charge Mode:
+{"cmd":"measurement_data",
+"values":
+{ "charge":-2.3780011453311807e-09,
+"current":-2.698900403281331e-10,
+"measurementRunning":true,
+"measuringTime":8811
+}
+}
+Stop a Measurement
+This always stops the current Measurement. In Manual-Mode this is the only way to stop it.
+-> {"cmd": "measurement", "value": "stop"}
+8 | DOSE-X API Documentation | DOSE-X Reference Guide
+
+--- PAGE 13 ---
+Reset Integrator
+Reset the Data of the last Measurement. If is set to false this command has to be used to Zero
+autoReset
+the integrator.
+-> {"cmd": "measurement", "value": "reset"}
+Background Measurement
+Trigger a Background Measurement. The Measurement is running for the configured
+'backgroundmeasurementTime'.
+This behaves just like a normal measurement with two differences:
+1. No Background is subtracted
+2. The resulting Average Current is used as Background for the selected Range
+-> {"cmd": "measurement", "value": "start_background"}
+Libraries
+The History and the Libraries behave similar. Most Noticable difference is that the user can't add or edit
+entries in the Measurement History.
+History and Libraries can be read by requesting the according Configuration Item:
+1. No Background is subtracted
+2. The resulting Average Current is used as Background for the selected Range
+■
+`measurementHistory`
+■
+`detector`
+■
+`machine`
+Detector Library
+Removing a measurement requires an array of ids send.
+```json
+# Req
+{"cmd":"delete_measurement","values":[419]}
+# Resp
+{"cmd":"value_update","values":{"measurementHistory":[...]}
+}
+```
+Machine Library
+To edit a Library item the command is used.
+`library_update`
+The Client can either request a template entry by using
+`get_new_detector`/`get_new_machine`
+or by editing an existing entry. It is highly recommended to use the json received from the api instead of
+manually composing an entry.
+To remove an entry the is used.
+`library_remove`
+DOSE-X Reference Guide | DOSE-X API Documentation | 9
+
+--- PAGE 14 ---
+2.6. List of Configuration Items
+Name Read Write Control Persist
+adminPasswordIsSet User -- false false
+allowRemoteControl User Admin false true
+audioAlertMuted User -- false false
+audioMeasurementMuted User User false true
+audioMeasurementVolume User User false true
+audioTouchMuted User User false true
+audioTouchVolume User User false true
+autoLogOutTimeSpan User Admin false false
+autoReset User User true false
+averageValue User -- false false
+background User -- false false
+backgroundCorrectionTimeStamp User -- true false
+backgroundMeasurementTime User User true false
+backgroundSubtractionEnabled User User false false
+beamOffTime User Admin false false
+beamOnThreshold User -- false false
+beamOnTime User Admin false false
+biasTest User -- true false
+biasVoltage User User false false
+brightness User User false true
+currentDate User -- false false
+currentTime User -- false false
+currentTimestamp User Admin false false
+dateFormats User Admin false false
+detector User User false false
+deviceInfo User -- false false
+deviceReady User -- false false
+doseLanguage User Admin false true
+doseTheme User User false true
+electrometerInput User User false false
+ethernet User -- false false
+firmwareVersion User -- false false
+friendlyName User Admin false true
+highSensitivity User -- false false
+10 | DOSE-X API Documentation | DOSE-X Reference Guide
+
+--- PAGE 15 ---
+Name Read Write Control Persist
+highVoltageEnabled User User true false
+hostName User Admin false false
+isDefaultCertificate User -- false true
+ktp User -- false false
+ktpEnabled User User false false
+leakageTest User -- false false
+licenses User -- false false
+lowSensitivity User -- false false
+machine User User false false
+mainValue User -- false false
+measurementComment User User true false
+measurementHistory User -- false false
+measurementMode User User true false
+measurementRunning User -- false false
+measurementTimer User User true false
+measurementTimerMode User User true false
+mediumSensitivity User -- false false
+networkInfos User -- false false
+postTriggerTime User Admin false false
+pressure User User false false
+pressureUnit User Admin false true
+preTriggerTime User Admin false false
+randomizer.automatic User User false false
+randomizer.params User User false false
+releaseActiveControlTimeSpan User Admin false false
+screenSaverTimeout User User false true
+selectedEnergyKqId User User false false
+selectedIonizationId User User false false
+selectedPolarityCorrectionId User User false false
+selectedUserCorrectionId User User false false
+sensitivity User User false false
+temperature User User false false
+temperatureUnit User Admin false true
+testRunning User -- false false
+timeFormats User Admin false true
+timeZones User Admin false true
+DOSE-X Reference Guide | DOSE-X API Documentation | 11
+
+--- PAGE 16 ---
+Name Read Write Control Persist
+tlsLicenseInfo User -- false false
+userCalibrationApplyFactors User Admin true true
+userCalibrationHighSensitivityFactor User Admin true true
+userCalibrationLowSensitivityFactor User Admin true true
+userCalibrationMediumSensitivityFactor User Admin true true
+useTimeFromNetwork User Admin false true
+wlanEnabled User Admin false true
+wlanNetworks User -- false false
+12 | DOSE-X API Documentation | DOSE-X Reference Guide
+
+--- PAGE 17 ---
+2.7. List of Known Commands
+Name Permission
+automatic_range_detection User
+change_pass User
+change_values User
+control User
+delete_measurement Admin
+diagnostic User
+export User
+firehose User
+get_alarms User
+get_firmware_file_info Admin
+get_new_detector User
+get_new_doserate User
+get_new_kq_correction User
+get_new_machine User
+get_usb_content Admin
+get_values User
+get_values_detailed User
+identify User
+library_remove Admin
+library_update Admin
+login User
+logout User
+measurement User
+notification_remove User
+reset_factory Admin
+reset_units User
+start_update_or_import Admin
+DOSE-X Reference Guide | DOSE-X API Documentation | 13
+
+--- PAGE 18 ---
+3. Troubleshooting
+Questionable Readings
+If readings are off, determine if there is any leakage from the DOSE-X or ionization chamber it is advised to
+check the system and perform the self-test function (see Section 3.2.1 Diagnostic Functions in the DOSE-X
+Instructions for Use).
+No Response
+If the DOSE-X does not respond to any commands from the touch screen for more than 10 seconds, press
+and hold the Power button on the front of the device for at least 6 seconds. Press the Power button again
+to restart the device.
+If the issue is not resolved, use the Power switch on the back to power cycle the device.
+Electromagnetic or Other Interference
+If the DOSE-X causes or is affected by interference with other equipment, try to correct the interference by
+performing the following:
+Increase separation between equipment.
+Connect the power supply power cord into a different grounded AC outlet or into a circuit controlled by a
+different circuit breaker.
+Consult IBA Dosimetry.
+Cannot detect USB flash drive
+The following error may occur when searching for the USB flash drive:
+Some flash drives may take up to 15 seconds to register with the DOSE-X FW. Ensure the flash drive is
+connected properly and wait a brief moment before attempting to perform the update again.
+Try to unplug and re-plug the flash drive from the DOSE-X. If the flash drive is plugged into the DOSE-X
+before the device is turned on, it may not be recognized by the FW.
+14 | Troubleshooting | DOSE-X Reference Guide
+
+--- PAGE 19 ---
+4. Country Specific RF Symbols
+Country Symbol
+Argentina
+Australia
+Botswana
+Module Marking:
+Anatel: 05831-17-04423
+Host Labeling:
+Brazil
+05831-17-04423
+IC: 1000M-9260NG
+Canada
+CAN ICES-001 (A) / NUM-001 (A)
+China 9260NGW => CMIIT ID: 2017AJ4605 (M)
+Comoros ANRTIC 17/016/AGR/GF/DG
+Djibouti
+Ghana NCA APPROVED: 1R3-1M-7E1-0D1
+India 9260NGW => NR-ETA/6865 and NR-ETA/6864
+DOSE-X Reference Guide | Country Specific RF Symbols | 15
+
+--- PAGE 20 ---
+Country Symbol
+Indonesia
+70981/SDPPI/2020
+7965
+Japan
+Jordan TRC/16/7286/2020
+Mauritania
+Mexico RCPIN9517-1585
+Moldova
+Morocco
+Nigeria
+Applicant n°D080001
+Oman Approval n° :
+TRA/TA-R/4583/17
+16 | Country Specific RF Symbols | DOSE-X Reference Guide
+
+--- PAGE 21 ---
+Country Symbol
+Pakistan
+Approved by PTA:
+9.62/2020
+Paraguay
+NR 2017-09-I-0000330
+Serbia
+Singapore
+This system contanis the following wireless module: Intel 9260NGW
+TA-2017/1348
+South Africa
+DOSE-X Reference Guide | Country Specific RF Symbols | 17
+
+--- PAGE 22 ---
+Country Symbol
+MSIP-CRM-INT-9260NGW
+South Korea
+9260NGW
+Taiwan
+United Arab
+Emirates (UAE)
+United
+Kingdom (UK)
+Unites States of
+FCC ID: PD99260NG
+America (USA)
+Ukraine
+Zambia
+ZMB / ZICTA / TA / 2017 / 8 / 4
+18 | Country Specific RF Symbols | DOSE-X Reference Guide
+
+--- PAGE 23 ---
+5. Technical Support
+5.1. Contacts for Technical Support
+If you need technical support, please contact the local IBA Dosimetry GmbH representative first. If you need
+any further assistance, please contact:
+USA, Canada, Latin America Europe, Middle East, Africa Asia Pacific
+Phone: +1 786 288 0369 Phone: +49 9128 607 38 Phone: +65 3129 2472
+service-usa@iba-group.com service-emea@iba-group.com service-apac@iba-group.com
+5.2. Reporting Complaints and Incidents
+Reporting Complaints
+The Quality Management System of IBA Dosimetry GmbH includes a routine to handle any reported
+complaints.
+All complaints about the product should be reported to any representative of IBA Dosimetry GmbH or
+directly to the technical support, see the contact information in the above section.
+Reporting Serious Incidents
+Any serious incident that has occurred in relation to the device should be reported to the manufacturer and
+the competent authority of the Member State in which the user and / or patient is established.
+5.3. Returning Device for Repair
+Procedure for shipping the device to the factory for repair:
+Contact your local IBA Dosimetry GmbH representative first to get support for the shipment.
+The Service personnel will generate an RMA (Return Material Authorization) number. You will receive an
+RMA Form with the RMA number and provided information by e-mail.
+Place the RMA Form into the package and ship the device to the address below:
+Service Department, IBA Dosimetry GmbH
+Bahnhofstrasse 5
+DE-90592 Schwarzenbruck
+Germany
+DOSE-X Reference Guide | Technical Support | 19

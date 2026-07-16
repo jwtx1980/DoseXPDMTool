@@ -1,0 +1,2435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DetectorList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Detectors>
+    <Detector>
+      <DetectorID>4</DetectorID>
+      <Manufacturer>IBA</Manufacturer>
+      <ModelName>FC65-G</ModelName>
+      <SerialNumber>5040</SerialNumber>
+      <Comment>Updated cal factor on 4/11/25-Amanda</Comment>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2025-03-20T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9708</A>
+        <B>1.972</B>
+        <C>-2.48</C>
+        <Kecal>0.904</Kecal>
+        <Radius>3.1</Radius>
+      </TG51Factors>
+      <CalibrationFactor>48290000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>8</DetectorID>
+      <Manufacturer>IBA</Manufacturer>
+      <ModelName>FC65-G</ModelName>
+      <SerialNumber>5755</SerialNumber>
+      <Comment>Unknown date of last Ppol Pion measurements</Comment>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <P_Property>
+        <NRG>4X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X</NRG>
+        <Pion>1.0038</Pion>
+        <Ppol>1.0009</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X-FFF</NRG>
+        <Pion>1.0083</Pion>
+        <Ppol>1.0002</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X-SRS</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-HAL</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>8X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X</NRG>
+        <Pion>1.004</Pion>
+        <Ppol>1.0006</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>10X-FFF</NRG>
+        <Pion>1.0129</Pion>
+        <Ppol>1.0004</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>15X</NRG>
+        <Pion>1.0073</Pion>
+        <Ppol>1</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>16X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18X</NRG>
+        <Pion>1.007</Pion>
+        <Ppol>1.001</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>20X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>23X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6E</NRG>
+        <Pion>1.0154</Pion>
+        <Ppol>0.9989</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>9E</NRG>
+        <Pion>1.0154</Pion>
+        <Ppol>0.9995</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>12E</NRG>
+        <Pion>1.0161</Pion>
+        <Ppol>0.9999</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>15E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>16E</NRG>
+        <Pion>1.0139</Pion>
+        <Ppol>1.0001</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>18E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>20E</NRG>
+        <Pion>1.0145</Pion>
+        <Ppol>0.9999</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>22E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2025-03-20T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9708</A>
+        <B>1.972</B>
+        <C>-2.48</C>
+        <Kecal>0.904</Kecal>
+        <Radius>3.1</Radius>
+      </TG51Factors>
+      <CalibrationFactor>48280000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>9</DetectorID>
+      <Manufacturer>IBA</Manufacturer>
+      <ModelName>FC65-G</ModelName>
+      <SerialNumber>4183</SerialNumber>
+      <Comment>Ppol, Pion measured on Sep 2024</Comment>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <P_Property>
+        <NRG>4X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X</NRG>
+        <Pion>1.0038</Pion>
+        <Ppol>1.001</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X-FFF</NRG>
+        <Pion>1.0078</Pion>
+        <Ppol>1.0004</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X-SRS</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-HAL</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>8X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X</NRG>
+        <Pion>1.0043</Pion>
+        <Ppol>1.0003</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>10X-FFF</NRG>
+        <Pion>1.0161</Pion>
+        <Ppol>1.0004</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>15X</NRG>
+        <Pion>1.0074</Pion>
+        <Ppol>1.0007</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>16X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18X</NRG>
+        <Pion>1.0075</Pion>
+        <Ppol>1.0006</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>20X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>23X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6E</NRG>
+        <Pion>1.0156</Pion>
+        <Ppol>0.9986</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>9E</NRG>
+        <Pion>1.016</Pion>
+        <Ppol>0.9995</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>12E</NRG>
+        <Pion>1.016</Pion>
+        <Ppol>1.0001</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>15E</NRG>
+        <Pion>1.016</Pion>
+        <Ppol>1</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>16E</NRG>
+        <Pion>1.0155</Pion>
+        <Ppol>0.9999</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>18E</NRG>
+        <Pion>1.0156</Pion>
+        <Ppol>0.9995</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>20E</NRG>
+        <Pion>1.0134</Pion>
+        <Ppol>0.9999</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>22E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2023-06-08T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9708</A>
+        <B>1.972</B>
+        <C>-2.48</C>
+        <Kecal>0.904</Kecal>
+        <Radius>3.1</Radius>
+      </TG51Factors>
+      <CalibrationFactor>48610000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>10</DetectorID>
+      <Manufacturer>IBA</Manufacturer>
+      <ModelName>FC65-G</ModelName>
+      <SerialNumber>5659</SerialNumber>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2024-01-22T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9708</A>
+        <B>1.972</B>
+        <C>-2.48</C>
+        <Kecal>0.904</Kecal>
+        <Radius>3.1</Radius>
+      </TG51Factors>
+      <CalibrationFactor>48560000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>12</DetectorID>
+      <Manufacturer>IBA</Manufacturer>
+      <ModelName>FC65-G</ModelName>
+      <SerialNumber>6489</SerialNumber>
+      <Comment>Ppol, Pion measured on July 2024</Comment>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <P_Property>
+        <NRG>4X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X</NRG>
+        <Pion>1.0035</Pion>
+        <Ppol>1.0008</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X-FFF</NRG>
+        <Pion>1.0076</Pion>
+        <Ppol>1.0008</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X-SRS</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-HAL</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>8X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X</NRG>
+        <Pion>1.0041</Pion>
+        <Ppol>1.0012</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>10X-FFF</NRG>
+        <Pion>1.0142</Pion>
+        <Ppol>1.0004</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>15X</NRG>
+        <Pion>1.0075</Pion>
+        <Ppol>1.0007</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>16X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18X</NRG>
+        <Pion>1.008</Pion>
+        <Ppol>1.001</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>20X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>23X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6E</NRG>
+        <Pion>1.0153</Pion>
+        <Ppol>0.999</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>9E</NRG>
+        <Pion>1.0159</Pion>
+        <Ppol>0.9998</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>12E</NRG>
+        <Pion>1.0153</Pion>
+        <Ppol>1.0004</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>15E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>16E</NRG>
+        <Pion>1.0149</Pion>
+        <Ppol>0.9999</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>18E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>20E</NRG>
+        <Pion>1.0172</Pion>
+        <Ppol>0.9997</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>22E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2025-04-01T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9708</A>
+        <B>1.972</B>
+        <C>-2.48</C>
+        <Kecal>0.904</Kecal>
+        <Radius>3.1</Radius>
+      </TG51Factors>
+      <CalibrationFactor>48290000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>13</DetectorID>
+      <Manufacturer>IBA</Manufacturer>
+      <ModelName>FC65-G</ModelName>
+      <SerialNumber>6461</SerialNumber>
+      <Comment>Ppol, Pion measured on March 2025</Comment>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <P_Property>
+        <NRG>4X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X</NRG>
+        <Pion>1.0038</Pion>
+        <Ppol>1.0006</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X-FFF</NRG>
+        <Pion>1.0076</Pion>
+        <Ppol>1.0008</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X-SRS</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-HAL</NRG>
+        <Pion>1</Pion>
+        <Ppol>0.9994</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>8X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X</NRG>
+        <Pion>1.0055</Pion>
+        <Ppol>1.001</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>10X-FFF</NRG>
+        <Pion>1.0162</Pion>
+        <Ppol>1.0001</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>15X</NRG>
+        <Pion>1.0057</Pion>
+        <Ppol>1.0008</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>16X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18X</NRG>
+        <Pion>1.0071</Pion>
+        <Ppol>1.0008</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>20X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>23X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6E</NRG>
+        <Pion>1.0072</Pion>
+        <Ppol>0.9991</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>9E</NRG>
+        <Pion>1.008</Pion>
+        <Ppol>0.9996</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>12E</NRG>
+        <Pion>1.0078</Pion>
+        <Ppol>1</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>15E</NRG>
+        <Pion>1.0071</Pion>
+        <Ppol>1.0003</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>16E</NRG>
+        <Pion>1.0139</Pion>
+        <Ppol>1.0004</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>18E</NRG>
+        <Pion>1.0167</Pion>
+        <Ppol>0.9996</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>20E</NRG>
+        <Pion>1.0152</Pion>
+        <Ppol>1.0004</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>22E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2024-09-12T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9708</A>
+        <B>1.972</B>
+        <C>-2.48</C>
+        <Kecal>0.904</Kecal>
+        <Radius>3.1</Radius>
+      </TG51Factors>
+      <CalibrationFactor>48170000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>14</DetectorID>
+      <Manufacturer>IBA</Manufacturer>
+      <ModelName>FC65-G</ModelName>
+      <SerialNumber>6383</SerialNumber>
+      <Comment>Ppol, Pion measured on Jan 2026 (VHC TB1)</Comment>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <P_Property>
+        <NRG>6X</NRG>
+        <Pion>1.0026</Pion>
+        <Ppol>1.0017</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X-FFF</NRG>
+        <Pion>1.0099</Pion>
+        <Ppol>1.0008</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X-SRS</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-HAL</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>8X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X</NRG>
+        <Pion>1.0026</Pion>
+        <Ppol>1.0022</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>10X-FFF</NRG>
+        <Pion>1.0151</Pion>
+        <Ppol>1.0006</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>15X</NRG>
+        <Pion>1.0078</Pion>
+        <Ppol>1.0005</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>16X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>20X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>23X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6E</NRG>
+        <Pion>1.0147</Pion>
+        <Ppol>0.9991</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>9E</NRG>
+        <Pion>1.0133</Pion>
+        <Ppol>1</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>12E</NRG>
+        <Pion>1.0135</Pion>
+        <Ppol>1.0007</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>16E</NRG>
+        <Pion>1.0148</Pion>
+        <Ppol>1</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>20E</NRG>
+        <Pion>1.0135</Pion>
+        <Ppol>1.0003</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>22E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18X</NRG>
+        <Pion>1.0082</Pion>
+        <Ppol>1.0005</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>4X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>15E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2024-09-12T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9708</A>
+        <B>1.972</B>
+        <C>-2.48</C>
+        <Kecal>0.904</Kecal>
+        <Radius>3.1</Radius>
+      </TG51Factors>
+      <CalibrationFactor>48530000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>15</DetectorID>
+      <Manufacturer>IBA</Manufacturer>
+      <ModelName>FC65-G</ModelName>
+      <SerialNumber>6503</SerialNumber>
+      <Comment>Ppol, Pion measured on Nov 2025 (CFAM TB1)</Comment>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <P_Property>
+        <NRG>4X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X</NRG>
+        <Pion>0.9993</Pion>
+        <Ppol>1.0009</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X-FFF</NRG>
+        <Pion>1.0069</Pion>
+        <Ppol>1.0007</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X-SRS</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-HAL</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>8X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X</NRG>
+        <Pion>1.0049</Pion>
+        <Ppol>1.0003</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>10X-FFF</NRG>
+        <Pion>1.007</Pion>
+        <Ppol>1.0006</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>15X</NRG>
+        <Pion>1.0052</Pion>
+        <Ppol>1.0009</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>16X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18X</NRG>
+        <Pion>1.0071</Pion>
+        <Ppol>1.0008</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>20X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>23X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6E</NRG>
+        <Pion>1.015</Pion>
+        <Ppol>0.999</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>9E</NRG>
+        <Pion>1.0139</Pion>
+        <Ppol>0.9995</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>12E</NRG>
+        <Pion>1.0152</Pion>
+        <Ppol>0.9997</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>15E</NRG>
+        <Pion>1.0085</Pion>
+        <Ppol>0.9975</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>16E</NRG>
+        <Pion>1.0143</Pion>
+        <Ppol>1.0003</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>18E</NRG>
+        <Pion>1.0168</Pion>
+        <Ppol>1</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>20E</NRG>
+        <Pion>1.0143</Pion>
+        <Ppol>1.0002</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>22E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2024-09-12T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9708</A>
+        <B>1.972</B>
+        <C>-2.48</C>
+        <Kecal>0.904</Kecal>
+        <Radius>3.1</Radius>
+      </TG51Factors>
+      <CalibrationFactor>48480000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>16</DetectorID>
+      <Manufacturer>SNC</Manufacturer>
+      <ModelName>1047</ModelName>
+      <SerialNumber>272106003</SerialNumber>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2024-10-16T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9992</A>
+        <B>1.254</B>
+        <C>-2.07</C>
+        <Kecal>0.904</Kecal>
+        <Radius>3.05</Radius>
+      </TG51Factors>
+      <CalibrationFactor>52320000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>17</DetectorID>
+      <Manufacturer>Exradin</Manufacturer>
+      <ModelName>A19</ModelName>
+      <SerialNumber>XAQ222791</SerialNumber>
+      <Comment>Memorial Hermann - Northeast</Comment>
+      <CalibrationVoltage>-300</CalibrationVoltage>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2025-01-15T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9934</A>
+        <B>1.384</B>
+        <C>-2.125</C>
+        <Kecal>0.904</Kecal>
+        <Radius>3.05</Radius>
+      </TG51Factors>
+      <CalibrationFactor>49640000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>18</DetectorID>
+      <Manufacturer>SNC</Manufacturer>
+      <ModelName>600c</ModelName>
+      <SerialNumber>273048003</SerialNumber>
+      <CalibrationVoltage>-300</CalibrationVoltage>
+      <P_Property>
+        <NRG>4X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-FFF</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-SRS</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-HAL</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>8X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X-FFF</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>15X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>16X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>20X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>23X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>9E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>12E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>15E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>16E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>20E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>22E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate xsi:nil="true" />
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9992</A>
+        <B>1.254</B>
+        <C>-2.07</C>
+        <Kecal>0.8991</Kecal>
+        <Radius>3.05</Radius>
+      </TG51Factors>
+      <CalibrationFactor>51470000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>19</DetectorID>
+      <Manufacturer>PTW</Manufacturer>
+      <ModelName>PTW30013</ModelName>
+      <SerialNumber>2297</SerialNumber>
+      <Comment>Ballad - Norton</Comment>
+      <CalibrationVoltage>-300</CalibrationVoltage>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2024-04-23T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9652</A>
+        <B>2.141</B>
+        <C>-2.623</C>
+        <Kecal>0.901</Kecal>
+        <Radius>3.05</Radius>
+      </TG51Factors>
+      <CalibrationFactor>53390000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>20</DetectorID>
+      <Manufacturer>PTW</Manufacturer>
+      <ModelName>PTW30013</ModelName>
+      <SerialNumber>009966</SerialNumber>
+      <CalibrationVoltage>-300</CalibrationVoltage>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2024-03-13T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9652</A>
+        <B>2.141</B>
+        <C>-2.623</C>
+        <Kecal>0.901</Kecal>
+        <Radius>3.05</Radius>
+      </TG51Factors>
+      <CalibrationFactor>54100000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>21</DetectorID>
+      <Manufacturer>SNC</Manufacturer>
+      <ModelName>600C</ModelName>
+      <SerialNumber>270190001</SerialNumber>
+      <Comment>Ascension St. Vincent</Comment>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2023-10-05T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9468</A>
+        <B>2.607</B>
+        <C>-2.852</C>
+        <Kecal>0.8991</Kecal>
+        <Radius>3.05</Radius>
+      </TG51Factors>
+      <CalibrationFactor>51600000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>23</DetectorID>
+      <Manufacturer>PTW</Manufacturer>
+      <ModelName>TN30013</ModelName>
+      <SerialNumber>0077</SerialNumber>
+      <CalibrationVoltage xsi:nil="true" />
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2024-05-24T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A xsi:nil="true" />
+        <B xsi:nil="true" />
+        <C xsi:nil="true" />
+        <Kecal xsi:nil="true" />
+        <Radius xsi:nil="true" />
+      </TG51Factors>
+      <CalibrationFactor>5.406</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>24</DetectorID>
+      <Manufacturer>PTW</Manufacturer>
+      <ModelName>PTW30013</ModelName>
+      <SerialNumber>0077</SerialNumber>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <P_Property>
+        <NRG>4X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X</NRG>
+        <Pion>1.0041</Pion>
+        <Ppol>0.9996</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X-FFF</NRG>
+        <Pion>1.0049</Pion>
+        <Ppol>0.9998</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X-SRS</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-HAL</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>8X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X</NRG>
+        <Pion>1.0041</Pion>
+        <Ppol>0.9996</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>10X-FFF</NRG>
+        <Pion>1.0075</Pion>
+        <Ppol>0.9998</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>15X</NRG>
+        <Pion>1.0036</Pion>
+        <Ppol>1</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>16X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>20X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>23X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6E</NRG>
+        <Pion>1.0054</Pion>
+        <Ppol>0.9999</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>9E</NRG>
+        <Pion>1.0053</Pion>
+        <Ppol>0.9999</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>12E</NRG>
+        <Pion>1.0047</Pion>
+        <Ppol>0.9999</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>15E</NRG>
+        <Pion>1.0051</Pion>
+        <Ppol>0.9999</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>16E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>20E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>22E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2024-05-24T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9652</A>
+        <B>2.141</B>
+        <C>-2.623</C>
+        <Kecal>0.901</Kecal>
+        <Radius>3.05</Radius>
+      </TG51Factors>
+      <CalibrationFactor>54060000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>25</DetectorID>
+      <Manufacturer>Exradin</Manufacturer>
+      <ModelName>A12</ModelName>
+      <SerialNumber>XA072909</SerialNumber>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2023-06-06T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>1.0146</A>
+        <B>0.777</B>
+        <C>-1.666</C>
+        <Kecal>0.907</Kecal>
+        <Radius>3.05</Radius>
+      </TG51Factors>
+      <CalibrationFactor>47710000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>26</DetectorID>
+      <Manufacturer>PTW</Manufacturer>
+      <ModelName>PTW30013</ModelName>
+      <SerialNumber>2594</SerialNumber>
+      <CalibrationVoltage>-300</CalibrationVoltage>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2024-03-13T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9652</A>
+        <B>2.141</B>
+        <C>-2.623</C>
+        <Kecal>0.901</Kecal>
+        <Radius>3.05</Radius>
+      </TG51Factors>
+      <CalibrationFactor>54480000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>27</DetectorID>
+      <Manufacturer>Exradin</Manufacturer>
+      <ModelName>A1SL</ModelName>
+      <SerialNumber>XW221515</SerialNumber>
+      <CalibrationVoltage xsi:nil="true" />
+      <P_Property>
+        <NRG>6X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2024-07-31T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9896</A>
+        <B>1.41</B>
+        <C>-2.049</C>
+        <Kecal>0.914</Kecal>
+        <Radius>2</Radius>
+      </TG51Factors>
+      <CalibrationFactor>5.932</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>30</DetectorID>
+      <Manufacturer>IBA</Manufacturer>
+      <ModelName>FC65-G</ModelName>
+      <SerialNumber>6488</SerialNumber>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <P_Property>
+        <NRG>4X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X</NRG>
+        <Pion>1.0042</Pion>
+        <Ppol>1.0007</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X-FFF</NRG>
+        <Pion>1.007</Pion>
+        <Ppol>1.0005</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X-SRS</NRG>
+        <Pion>1.0128</Pion>
+        <Ppol>0.9994</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X-HAL</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>8X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X</NRG>
+        <Pion>1.0044</Pion>
+        <Ppol>1.0003</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>10X-FFF</NRG>
+        <Pion>1.014</Pion>
+        <Ppol>1.0013</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>15X</NRG>
+        <Pion>1.0059</Pion>
+        <Ppol>1.0001</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>16X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18X</NRG>
+        <Pion>1.0081</Pion>
+        <Ppol>1.0007</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>20X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>23X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6E</NRG>
+        <Pion>1.0149</Pion>
+        <Ppol>1.0009</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>9E</NRG>
+        <Pion>1.0148</Pion>
+        <Ppol>1.0002</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>12E</NRG>
+        <Pion>1.0147</Pion>
+        <Ppol>0.9997</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>15E</NRG>
+        <Pion>1.0146</Pion>
+        <Ppol>1</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>16E</NRG>
+        <Pion>1.0149</Pion>
+        <Ppol>0.9998</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>18E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>20E</NRG>
+        <Pion>1.0144</Pion>
+        <Ppol>0.9995</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>22E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2025-03-20T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9708</A>
+        <B>1.972</B>
+        <C>-2.48</C>
+        <Kecal>0.904</Kecal>
+        <Radius>3.1</Radius>
+      </TG51Factors>
+      <CalibrationFactor>48270000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>31</DetectorID>
+      <Manufacturer>IBA</Manufacturer>
+      <ModelName>FC65-G</ModelName>
+      <SerialNumber>6487</SerialNumber>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2024-02-27T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9708</A>
+        <B>1.972</B>
+        <C>-2.48</C>
+        <Kecal>0.904</Kecal>
+        <Radius>3.1</Radius>
+      </TG51Factors>
+      <CalibrationFactor>47790000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>32</DetectorID>
+      <Manufacturer>IBA</Manufacturer>
+      <ModelName>FC65-G</ModelName>
+      <SerialNumber>6462</SerialNumber>
+      <Comment>Amanda added Pion/Ppol 6/24/25</Comment>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <P_Property>
+        <NRG>4X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X</NRG>
+        <Pion>1.0034</Pion>
+        <Ppol>1.0001</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X-SRS</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-HAL</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>8X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X</NRG>
+        <Pion>1.0035</Pion>
+        <Ppol>1.0002</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>10X-FFF</NRG>
+        <Pion>1.0127</Pion>
+        <Ppol>1.0006</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>15X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>16X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18X</NRG>
+        <Pion>1.0065</Pion>
+        <Ppol>1.0005</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>20X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>23X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6E</NRG>
+        <Pion>1.0132</Pion>
+        <Ppol>0.998</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>9E</NRG>
+        <Pion>1.0126</Pion>
+        <Ppol>0.9992</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>12E</NRG>
+        <Pion>1.0123</Pion>
+        <Ppol>0.9998</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>15E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>16E</NRG>
+        <Pion>1.0126</Pion>
+        <Ppol>0.9995</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>18E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>20E</NRG>
+        <Pion>1.0126</Pion>
+        <Ppol>0.9998</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>22E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-FFF</NRG>
+        <Pion>1.008</Pion>
+        <Ppol>1.0003</Ppol>
+      </P_Property>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2024-02-06T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9708</A>
+        <B>1.972</B>
+        <C>-2.48</C>
+        <Kecal>0.904</Kecal>
+        <Radius>3.1</Radius>
+      </TG51Factors>
+      <CalibrationFactor>47950000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>33</DetectorID>
+      <Manufacturer>PTW</Manufacturer>
+      <ModelName>PTW30013</ModelName>
+      <SerialNumber>8475</SerialNumber>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <P_Property>
+        <NRG>4X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-FFF</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-SRS</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-HAL</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>8X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X-FFF</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>15X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>16X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>20X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>23X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>9E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>12E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>15E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>16E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>20E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>22E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2024-09-17T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9652</A>
+        <B>2.141</B>
+        <C>-2.623</C>
+        <Kecal>0.901</Kecal>
+        <Radius>3.05</Radius>
+      </TG51Factors>
+      <CalibrationFactor>53720000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>34</DetectorID>
+      <Manufacturer>Exradin</Manufacturer>
+      <ModelName>A19</ModelName>
+      <SerialNumber>XAQ173133</SerialNumber>
+      <CalibrationVoltage>-300</CalibrationVoltage>
+      <P_Property>
+        <NRG>4X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-FFF</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-SRS</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-HAL</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>8X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X-FFF</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>15X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>16X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>20X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>23X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>9E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>12E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>15E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>16E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>20E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>22E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2024-08-20T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9934</A>
+        <B>1.384</B>
+        <C>-2.125</C>
+        <Kecal>0.904</Kecal>
+        <Radius>3.05</Radius>
+      </TG51Factors>
+      <CalibrationFactor>49200000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>35</DetectorID>
+      <Manufacturer>Exradin</Manufacturer>
+      <ModelName>A19</ModelName>
+      <SerialNumber>X212218</SerialNumber>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2025-03-24T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9934</A>
+        <B>1.384</B>
+        <C>-2.125</C>
+        <Kecal>0.904</Kecal>
+        <Radius>3.05</Radius>
+      </TG51Factors>
+      <CalibrationFactor>49820000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>36</DetectorID>
+      <Manufacturer>Exradin</Manufacturer>
+      <ModelName>A19</ModelName>
+      <SerialNumber>XAQ250851</SerialNumber>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <P_Property>
+        <NRG>4X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-FFF</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-SRS</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-HAL</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>8X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X-FFF</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>15X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>16X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>20X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>23X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>9E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>12E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>15E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>16E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>20E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>22E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2025-04-10T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9934</A>
+        <B>1.384</B>
+        <C>-2.125</C>
+        <Kecal>0.904</Kecal>
+        <Radius>3.05</Radius>
+      </TG51Factors>
+      <CalibrationFactor>51200000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>37</DetectorID>
+      <Manufacturer>Exradin</Manufacturer>
+      <ModelName>A1SL</ModelName>
+      <SerialNumber>XW180513</SerialNumber>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <P_Property>
+        <NRG>4X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-FFF</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-SRS</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-HAL</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>8X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X-FFF</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>15X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>16X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>20X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>23X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>9E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>12E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>15E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>16E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>20E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>22E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2024-02-29T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9896</A>
+        <B>1.41</B>
+        <C>-2.049</C>
+        <Kecal>0.914</Kecal>
+        <Radius>2</Radius>
+      </TG51Factors>
+      <CalibrationFactor>58950000000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>38</DetectorID>
+      <Manufacturer>PTW</Manufacturer>
+      <ModelName>PTW30013</ModelName>
+      <SerialNumber>2450</SerialNumber>
+      <Comment>Ballad - BRMC</Comment>
+      <CalibrationVoltage>-300</CalibrationVoltage>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2025-06-30T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9652</A>
+        <B>2.141</B>
+        <C>-2.623</C>
+        <Kecal>0.897</Kecal>
+        <Radius>3.05</Radius>
+      </TG51Factors>
+      <CalibrationFactor>54630000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>39</DetectorID>
+      <Manufacturer>SNC</Manufacturer>
+      <ModelName>1047</ModelName>
+      <SerialNumber>252387003</SerialNumber>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <P_Property>
+        <NRG>4X</NRG>
+        <Pion>1.0027</Pion>
+        <Ppol>1.0014</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X</NRG>
+        <Pion>1.0036</Pion>
+        <Ppol>1.0005</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X-FFF</NRG>
+        <Pion>1.0065</Pion>
+        <Ppol>1.0005</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X-SRS</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-HAL</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>8X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X</NRG>
+        <Pion>1.0034</Pion>
+        <Ppol>1.0008</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>10X-FFF</NRG>
+        <Pion>1.0131</Pion>
+        <Ppol>1.0011</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>15X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>16X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18X</NRG>
+        <Pion>1.0066</Pion>
+        <Ppol>1.0003</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>20X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>23X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6E</NRG>
+        <Pion>1.0114</Pion>
+        <Ppol>0.9999</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>9E</NRG>
+        <Pion>1.0135</Pion>
+        <Ppol>0.9994</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>12E</NRG>
+        <Pion>1.0122</Pion>
+        <Ppol>0.9998</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>15E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>16E</NRG>
+        <Pion>1.0123</Pion>
+        <Ppol>1.0003</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>18E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>20E</NRG>
+        <Pion>1.0123</Pion>
+        <Ppol>1.0002</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>22E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2024-07-18T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9992</A>
+        <B>1.254</B>
+        <C>-2.07</C>
+        <Kecal>0.8991</Kecal>
+        <Radius>3.05</Radius>
+      </TG51Factors>
+      <CalibrationFactor>51410000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>41</DetectorID>
+      <Manufacturer>PTW</Manufacturer>
+      <ModelName>PTW30013</ModelName>
+      <SerialNumber>009621</SerialNumber>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <P_Property>
+        <NRG>4X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-FFF</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-SRS</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-HAL</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>8X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X-FFF</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>15X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>16X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>20X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>23X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>9E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>12E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>15E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>16E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>20E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>22E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2025-04-14T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9652</A>
+        <B>2.141</B>
+        <C>-2.623</C>
+        <Kecal>0.901</Kecal>
+        <Radius>3.05</Radius>
+      </TG51Factors>
+      <CalibrationFactor>54160000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>42</DetectorID>
+      <Manufacturer>PTW</Manufacturer>
+      <ModelName>N30013</ModelName>
+      <SerialNumber>0556</SerialNumber>
+      <Comment>BVHS</Comment>
+      <CalibrationVoltage>-300</CalibrationVoltage>
+      <P_Property>
+        <NRG>4X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X</NRG>
+        <Pion>1.0021</Pion>
+        <Ppol>0.9992</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X-FFF</NRG>
+        <Pion>1.0042</Pion>
+        <Ppol>1.0001</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>6X-SRS</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6X-HAL</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>8X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>10X</NRG>
+        <Pion>1.0017</Pion>
+        <Ppol>0.9999</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>10X-FFF</NRG>
+        <Pion>1.0086</Pion>
+        <Ppol>1.0004</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>15X</NRG>
+        <Pion>1.0064</Pion>
+        <Ppol>1.0006</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>16X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>18X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>20X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>23X</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>6E</NRG>
+        <Pion>1.01</Pion>
+        <Ppol>1.0002</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>9E</NRG>
+        <Pion>1.0105</Pion>
+        <Ppol>1.0004</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>12E</NRG>
+        <Pion>1.0102</Pion>
+        <Ppol>1.0005</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>15E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>16E</NRG>
+        <Pion>1.0111</Pion>
+        <Ppol>1.0007</Ppol>
+      </P_Property>
+      <P_Property>
+        <NRG>18E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>20E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <P_Property>
+        <NRG>22E</NRG>
+        <Pion xsi:nil="true" />
+        <Ppol xsi:nil="true" />
+      </P_Property>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2025-02-03T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9652</A>
+        <B>2.141</B>
+        <C>-2.623</C>
+        <Kecal>0.901</Kecal>
+        <Radius>3.05</Radius>
+      </TG51Factors>
+      <CalibrationFactor>53270000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>43</DetectorID>
+      <Manufacturer>PTW</Manufacturer>
+      <ModelName>PTW30013</ModelName>
+      <Comment>Powers Crown Point</Comment>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2025-11-21T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>0.9652</A>
+        <B>2.141</B>
+        <C>-2.623</C>
+        <Kecal>0.901</Kecal>
+        <Radius>3.05</Radius>
+      </TG51Factors>
+      <CalibrationFactor>54330000</CalibrationFactor>
+    </Detector>
+    <Detector>
+      <DetectorID>44</DetectorID>
+      <Manufacturer>Exradin</Manufacturer>
+      <ModelName>A12</ModelName>
+      <SerialNumber>XA082803</SerialNumber>
+      <CalibrationVoltage>300</CalibrationVoltage>
+      <Radius>0</Radius>
+      <DetectorType>CylindricalChamber</DetectorType>
+      <CalibrationDate>2025-06-06T00:00:00</CalibrationDate>
+      <Frequency>Daily</Frequency>
+      <TG51Factors>
+        <A>1.0146</A>
+        <B>0.777</B>
+        <C>-1.666</C>
+        <Kecal>0.907</Kecal>
+        <Radius>3.05</Radius>
+      </TG51Factors>
+      <CalibrationFactor>48750000</CalibrationFactor>
+    </Detector>
+  </Detectors>
+</DetectorList>

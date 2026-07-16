@@ -1,0 +1,3049 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HospitalList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Hospitals>
+    <Hospital>
+      <HospitalID>1</HospitalID>
+      <HospitalName>Epic Care - Emeryville</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Emeryville</City>
+        <State>CA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>Infinity</ModelName>
+          <SerialNumber>3727</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Epic Care - Dublin</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Dublin</City>
+        <State>CA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>Versa</ModelName>
+          <SerialNumber>6883</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Epic Care - Hayward</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Hayward</City>
+        <State>CA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>Versa</ModelName>
+          <SerialNumber>6742</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Good Samaritan - Mission Oaks</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Los Gatos</City>
+        <State>CA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>iX</ModelName>
+          <SerialNumber>3318</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Epic Care - Pleasant Hill</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Pleasant Hill</City>
+        <State>CA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>Synergy</ModelName>
+          <SerialNumber>15623</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>Synergy</ModelName>
+          <SerialNumber>1699</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Epic Care - Antioch</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Antioch</City>
+        <State>CA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>Synergy</ModelName>
+          <SerialNumber>1699</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Northwell - Islip Cancer Center at Bay Shore</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Bay Shore</City>
+        <State>NY</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Truebeam</ModelName>
+          <SerialNumber>2735</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Northwell - Center for Advanced Med</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Lake Success</City>
+        <State>NY</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Truebeam</ModelName>
+          <SerialNumber>1009</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Truebeam STX</ModelName>
+          <SerialNumber>1526</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Truebeam</ModelName>
+          <SerialNumber>1527</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Halcyon</ModelName>
+          <SerialNumber>1671</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Northwell Health Cancer Institute - Queens Radiation Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Queens</City>
+        <State>NY</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>2100</ModelName>
+          <SerialNumber>0045</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Northwell - Northern Westchester</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Mt. Kisco</City>
+        <State>NY</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Truebeam</ModelName>
+          <SerialNumber>2895</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Northwell - Phelps</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Sleepy Hollow</City>
+        <State>NY</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Trilogy</ModelName>
+          <SerialNumber>4188</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Northwell - Staten Island</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Staten Island</City>
+        <State>NY</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Truebeam</ModelName>
+          <SerialNumber>2640</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Missouri Baptist Medical Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>St. Louis</City>
+        <State>MO</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Truebeam</ModelName>
+          <SerialNumber>2983</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>iX</ModelName>
+          <SerialNumber>4083</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Hendricks Regional</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Avon</City>
+        <State>IN</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Truebeam</ModelName>
+          <SerialNumber>3195</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>21iX</ModelName>
+          <SerialNumber>3733</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Methodist Hospital - South Lake Campus</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Merrillville</City>
+        <State>IN</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>2863</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>South County Health</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Wakefield</City>
+        <State>RI</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>5249</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Northwell Lenox Hill Hospital</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>NYC</City>
+        <State>NY</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Halcyon</ModelName>
+          <SerialNumber>1671</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>VHC - Arlington</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Arlington</City>
+        <State>VA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>3308</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>1600</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Self Regional</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Greenwood</City>
+        <State>SC</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Trilogy</ModelName>
+          <SerialNumber>3764</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam Edge</ModelName>
+          <SerialNumber>5032</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>HCA - Reston Hospital Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Reston</City>
+        <State>VA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>4400</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>City of Hope-Newnan GA</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Newnan</City>
+        <State>GA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>2052</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>1281</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>3112</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>MultiCare Capital Radiation Therapy</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Olympia</City>
+        <State>WA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>Synergy</ModelName>
+          <SerialNumber>1568</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Memorial Hermann - Northeast Cancer Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Humble</City>
+        <State>TX</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>iX</ModelName>
+          <SerialNumber>5728</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Salem Regional Cancer Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Salem</City>
+        <State>OH</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Vital Beam</ModelName>
+          <SerialNumber>3475</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Ballad - Johnston Memorial Hospital</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Abingdon</City>
+        <State>VA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>3085</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Detar Cancer Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Victoria</City>
+        <State>TX</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>5757</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>PikeVille Medical Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Pikeville</City>
+        <State>KY</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>VARIAN</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>4999</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>VARIAN</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>5808</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Ballad - Southwest Virginia Cancer Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Norton</City>
+        <State>VA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Trilogy</ModelName>
+          <SerialNumber>5333</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>City of Hope-Chicago</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Zion</City>
+        <State>IL</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>2687</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>2753</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Froedtert South</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Prairie Valley</City>
+        <State>WI</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>VersaHD</ModelName>
+          <SerialNumber>6880</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Franciscan Health - Michigan City</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Michigan City</City>
+        <State>IN</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>5327</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Corewell Health</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>St Joseph</City>
+        <State>MI</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>5339</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>2046</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Windsor Regional Hospital</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Windsor</City>
+        <State>ON</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>5825</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Ascension St. Vincent</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Newburgh</City>
+        <State>IN</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>iX</ModelName>
+          <SerialNumber>4089</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>5085</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <Comment>TB1</Comment>
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>UPMC Johnstown</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Johnstown</City>
+        <State>PA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>23iX</ModelName>
+          <SerialNumber>6023</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>MUH-Memphis</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Memphis</City>
+        <State>TN</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>VersaHD</ModelName>
+          <SerialNumber>4710</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <Comment>MUH_Curie</Comment>
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>VersaHD</ModelName>
+          <SerialNumber>4718</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <Comment>MUH_Gray</Comment>
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Berkshire Medical Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Pittsfield</City>
+        <State>MA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>21iX</ModelName>
+          <SerialNumber>6095</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Accuray</Manufacturer>
+          <ModelName>Tomotherapy</ModelName>
+          <SerialNumber>559</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <Comment>Note: Machine has dynamic jaws</Comment>
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Covenant Health - Lubbock</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Lubbock</City>
+        <State>TX</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>Infinity</ModelName>
+          <SerialNumber>3719</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>Versa</ModelName>
+          <SerialNumber>3705</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Nor Lea - Lovington</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Lovington</City>
+        <State>NM</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>Infinity</ModelName>
+          <SerialNumber>6084</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Coastal Cancer Center - Conway</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Conway</City>
+        <State>SC</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>2414</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Coastal Cancer Center - Myrtle Beach</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Myrtle Beach</City>
+        <State>SC</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>5072</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Halcyon</ModelName>
+          <SerialNumber>1353</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>7341</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>NEOK Cancer Institute</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Claremore</City>
+        <State>OK</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Halcyon</ModelName>
+          <SerialNumber>1019</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Methodist - Southlake</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Merrillville</City>
+        <State>IN</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>2863</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Powers Health - Munster</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Munster</City>
+        <State>IN</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>2939</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <Comment>TB1</Comment>
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>4961</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <Comment>TB2</Comment>
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Powers Health - Hobart</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Hobart</City>
+        <State>IN</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>2286</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>HSHS - Door County Cancer Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Sturgeon Bay</City>
+        <State>WI</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Trilogy</ModelName>
+          <SerialNumber>6037</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>4091</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>HSHS - St Vincent</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Green Bay</City>
+        <State>WI</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>5848</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Beloit UW Cancer Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Beloit</City>
+        <State>WI</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>Infinity</ModelName>
+          <SerialNumber>3035</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Riverside Cancer Institute</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Burbonais</City>
+        <State>IN</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>1497</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <Comment>SAD HD MLC</Comment>
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>5949</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <Comment>SAD</Comment>
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>UMass - Harrington</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Southbridge</City>
+        <State>MA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Clinac iX</ModelName>
+          <SerialNumber>4377</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Prime Health - Olympia Fields</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Olympia</City>
+        <State>IL</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TB</ModelName>
+          <SerialNumber>5712</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>iX</ModelName>
+          <SerialNumber>3880</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Lahey Peabody</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Peabody</City>
+        <State>MA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Sil</ModelName>
+          <SerialNumber>952</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam1</ModelName>
+          <SerialNumber>2195</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Lahey Burlington</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Burlington</City>
+        <State>MA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Edge</ModelName>
+          <SerialNumber>6810</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <Comment>Edge1</Comment>
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Edge</ModelName>
+          <SerialNumber>6759</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <Comment>Edge2</Comment>
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Christus St Vincent</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Santa Fe</City>
+        <State>NM</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Truebeam</ModelName>
+          <SerialNumber>7108</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>7459</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>CHRISTUS St PAtrick</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Lake Charles</City>
+        <State>LA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>6156</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Christus Cabrini</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Alexandria</City>
+        <State>LA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>6308</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Trilogy</ModelName>
+          <SerialNumber>6326</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>MultiCare North Star Lodge</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Yakima</City>
+        <State>WA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>1445</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>1249</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Meadowview Cancer Treatment Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Maysville</City>
+        <State>KY</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TueBeam</ModelName>
+          <SerialNumber>4957</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Fairfield Medical Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Lancaster</City>
+        <State>OH</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>5122</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Bon Secours St. Francis</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Richmond</City>
+        <State>VA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>4096</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Bon Secours Reynolds Crossing</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Richmond</City>
+        <State>VA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TB</ModelName>
+          <SerialNumber>2786</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Bon Secours Harbour View</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Suffolk</City>
+        <State>VA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>1169</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>HCA Memorial - Savannah</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Savannah</City>
+        <State>GA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>3968</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>1161</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Carolina Veterinary Specialists</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Matthews</City>
+        <State>NC</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Trilogy</ModelName>
+          <SerialNumber>6542</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Iredell Memorial Hospital</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Statesville</City>
+        <State>NC</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>1254</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>2100C</ModelName>
+          <SerialNumber>880</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Geisinger - Pottsville</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Pottsville</City>
+        <State>PA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Halcyon</ModelName>
+          <SerialNumber>1021</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Geisinger - Lewisburg</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Lewisburg</City>
+        <State>PA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>4821</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Geisinger - Danville</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Danville</City>
+        <State>PA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>5088</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeamHDMLC</ModelName>
+          <SerialNumber>2304</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Mercy Health - Springfield</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Springfield</City>
+        <State>MO</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>Infinity</ModelName>
+          <SerialNumber>4264</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>Infinity</ModelName>
+          <SerialNumber>4175</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Geisinger - Dickson City</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Dickson City</City>
+        <State>PA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>7176</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Geisinger - Wyoming Valley</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Wilkes-Barre</City>
+        <State>PA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>3286</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Lake Cumberland Cancer Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Somerset</City>
+        <State>KY</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>4089</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>CPRCC - Waldorf</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Waldorf</City>
+        <State>MD</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>Synergy</ModelName>
+          <SerialNumber>1584</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <Comment>Agility Head</Comment>
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>CPRCC - Charlotte Hall</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Charlotte Hall</City>
+        <State>MD</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>4097</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Geisinger-Lewistown</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Lewistown</City>
+        <State>PA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>7283</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>MultiCare - Gig Harbor</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Gig Harbor</City>
+        <State>WA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>iX</ModelName>
+          <SerialNumber>4155</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>MultiCare - Tacoma General</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Tacoma</City>
+        <State>WA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>iX</ModelName>
+          <SerialNumber>4625</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>3711</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Confluence Health - Wenatchee</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Wenatchee</City>
+        <State>WA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>1273</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Confluence Health - Moses Lake</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Moses Lake</City>
+        <State>WA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>6165</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>MultiCare - Auburn</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Auburn</City>
+        <State>WA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>iX</ModelName>
+          <SerialNumber>4794</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Northern Lights - ARG</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Presque Isle</City>
+        <State>ME</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBEAM</ModelName>
+          <SerialNumber>7287</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Thibodaux Regional Health Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Thibodaux</City>
+        <State>LA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>3290</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Barren River Regional Cancer Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Glasgow</City>
+        <State>KY</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>7322</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>City of Hope-North Phoenix</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Phoenix</City>
+        <State>AZ</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>3621</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>AON - Casa Grande</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Casa Grande</City>
+        <State>AZ</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>6076</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>City of Hope-Goodyear</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Goodyear</City>
+        <State>AZ</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>6015</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Memorial Hermann - TMC</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Houston</City>
+        <State>TX</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Edge</ModelName>
+          <SerialNumber>4230</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Trilogy</ModelName>
+          <SerialNumber>5301</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Memorial Hermann - MC</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Houston</City>
+        <State>TX</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>5658</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>1046</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Ballad - Bristol Regional Medical Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Bristol</City>
+        <State>TN</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeamSTX</ModelName>
+          <SerialNumber>2109</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>7225</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Ballad - Johnson City Medical Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Johnson City</City>
+        <State>TN</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>Versa HD</ModelName>
+          <SerialNumber>3466</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>Infinity</ModelName>
+          <SerialNumber>3448</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Ballad - Holston Valley Medical Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Kingsport</City>
+        <State>TN</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Trilogy</ModelName>
+          <SerialNumber>5758</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Meritus Health JMCC</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Hagerstown</City>
+        <State>MD</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>2243</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>5439</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>UPMC Maryland</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Cumberland</City>
+        <State>MD</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>2141</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>iX-OBI</ModelName>
+          <SerialNumber>4481</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Carroll Hospital</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Westminster</City>
+        <State>MD</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>6604</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Northwell Health - Center For Advanced Medicine</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Lake Success</City>
+        <State>NY</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Truebeam</ModelName>
+          <SerialNumber>1527</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Northwell Health - Imbert Cancer Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Bayshore</City>
+        <State>NY</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Truebeam</ModelName>
+          <SerialNumber>2735</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Norton-Brownsboro</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Louisville</City>
+        <State>KY</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>3965</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <Comment>B2</Comment>
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>3638</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <Comment>B1</Comment>
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Norton - Saint Matthews</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>St. Matthews</City>
+        <State>KY</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Truebeam</ModelName>
+          <SerialNumber>3396</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Truebeam</ModelName>
+          <SerialNumber>7388</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Camden Clark Medical Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Parkersburg</City>
+        <State>WV</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>6931</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>South County Hospital-RI</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Wakefield</City>
+        <State>RI</State>
+        <Zip>02879</Zip>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>5249</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>OneOncology - PCC Los Gatos</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Los Gatos</City>
+        <State>CA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>iX</ModelName>
+          <SerialNumber>3318</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>MOBAP</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>St. Louis</City>
+        <State>MO</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>2300iX</ModelName>
+          <SerialNumber>4083</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Bon Secours - Southside Regional</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Petersburg</City>
+        <State>VA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>2262</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <Comment>HDMLC</Comment>
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>1618</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Bon Secours - St. Mary's </HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Richmond</City>
+        <State>VA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Trilogy</ModelName>
+          <SerialNumber>3685</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Augusta Radiation Oncology</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>North Augusta</City>
+        <State>SC</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Ethos</ModelName>
+          <SerialNumber>2227</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Edge</ModelName>
+          <SerialNumber>7025</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>City of Hope Chicago</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Zion</City>
+        <State>IL</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>2687</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <Comment>TB1</Comment>
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>2753</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <Comment>TB2</Comment>
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>CHRISTUS - Spohn Cancer Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Corpus Christi</City>
+        <State>Tx</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>iX</ModelName>
+          <SerialNumber>3976</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Edge</ModelName>
+          <SerialNumber>5259</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Bluefield Regional Medical Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Bluefield</City>
+        <State>WV</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Halcyon</ModelName>
+          <SerialNumber>2326</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Christus St Michael (Texarkana)</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Texarkana</City>
+        <State>TX</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>3478</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <Comment>TB1</Comment>
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>5763</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <Comment>TB2</Comment>
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Ridley Tree Cancer Center</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Santa Barbara</City>
+        <State>CA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>VersaHD</ModelName>
+          <SerialNumber>4339</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>VersaHD</ModelName>
+          <SerialNumber>4340</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Methodist - Lebonheur</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Memphis</City>
+        <State>TN</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>Versa</ModelName>
+          <SerialNumber>4718</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Elekta</Manufacturer>
+          <ModelName>Versa</ModelName>
+          <SerialNumber>4710</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Berkshire Health System</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Pittsfield</City>
+        <State>MA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Clinac iX</ModelName>
+          <SerialNumber>6095</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Blanchard Valley Health System</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Findlay</City>
+        <State>OH</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>1434</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <Comment>TB2</Comment>
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>6491</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <Comment>TB1</Comment>
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Coastal Cancer Center - Myrtle Beach Oleander</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Myrtle Beach</City>
+        <State>SC</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Halcyon</ModelName>
+          <SerialNumber>1353</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Powers Health - Crown Point</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Crown Point </City>
+        <State>IN</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>7373</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>HSHS - St. Nicholas</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Sheboygan</City>
+        <State>WI</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>4186</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>Francisican Health - Crown Point</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Crown Point</City>
+        <State>IN</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Trilogy</ModelName>
+          <SerialNumber>5309</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>HCA - LewisGale Pulaski</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Pulaski</City>
+        <State>VA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>3838</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>TrueBeam</ModelName>
+          <SerialNumber>6202</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+    <Hospital>
+      <HospitalID xsi:nil="true" />
+      <HospitalName>VCA - SouthPaws</HospitalName>
+      <BillingAddress>
+        <AddressID xsi:nil="true" />
+      </BillingAddress>
+      <ShippingAddress>
+        <AddressID xsi:nil="true" />
+        <City>Fairfax</City>
+        <State>VA</State>
+      </ShippingAddress>
+      <Linacs>
+        <LINAC>
+          <LINACID xsi:nil="true" />
+          <Manufacturer>Varian</Manufacturer>
+          <ModelName>Halcyon</ModelName>
+          <SerialNumber>1154</SerialNumber>
+          <HospitalID xsi:nil="true" />
+          <MachineOrigin>New</MachineOrigin>
+        </LINAC>
+      </Linacs>
+    </Hospital>
+  </Hospitals>
+</HospitalList>

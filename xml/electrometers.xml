@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ElectrometerList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Electrometers>
+    <Electrometer>
+      <ElectrometerID>1</ElectrometerID>
+      <Manufacturer>IBA</Manufacturer>
+      <ModelName>DOSE-X</ModelName>
+      <SerialNumber>36906</SerialNumber>
+      <Comment>kit 5</Comment>
+      <CalibrationDate>2024-04-23T00:00:00</CalibrationDate>
+      <CalibrationFactor>1</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>2</ElectrometerID>
+      <Manufacturer>IBA</Manufacturer>
+      <ModelName>DOSE-X</ModelName>
+      <SerialNumber>36909</SerialNumber>
+      <Comment>Kit 2</Comment>
+      <CalibrationDate>2024-04-19T00:00:00</CalibrationDate>
+      <CalibrationFactor>1</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>3</ElectrometerID>
+      <Manufacturer>IBA</Manufacturer>
+      <ModelName>DOSE-X</ModelName>
+      <SerialNumber>36908</SerialNumber>
+      <Comment>Kit 3</Comment>
+      <CalibrationDate>2026-05-04T00:00:00</CalibrationDate>
+      <CalibrationFactor>1</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>4</ElectrometerID>
+      <Manufacturer>IBA</Manufacturer>
+      <ModelName>DOSE-X</ModelName>
+      <SerialNumber>36913</SerialNumber>
+      <Comment>kit 3</Comment>
+      <CalibrationDate>2024-04-22T00:00:00</CalibrationDate>
+      <CalibrationFactor>1</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>5</ElectrometerID>
+      <Manufacturer>IBA</Manufacturer>
+      <ModelName>DOSE-X</ModelName>
+      <SerialNumber>36907</SerialNumber>
+      <Comment>Kit2</Comment>
+      <CalibrationDate>2026-04-22T00:00:00</CalibrationDate>
+      <CalibrationFactor>1</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>6</ElectrometerID>
+      <Manufacturer>Standard Imaging</Manufacturer>
+      <ModelName>Max-4000</ModelName>
+      <SerialNumber>E060954</SerialNumber>
+      <Comment>Memorial Hermann - Northeast</Comment>
+      <CalibrationDate>2025-01-15T00:00:00</CalibrationDate>
+      <CalibrationFactor>0.999</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>7</ElectrometerID>
+      <Manufacturer>Standard Imaging</Manufacturer>
+      <ModelName>CDX-2000B</ModelName>
+      <SerialNumber>J020504</SerialNumber>
+      <Comment>Ascension St. Vincent</Comment>
+      <CalibrationDate>2024-11-18T00:00:00</CalibrationDate>
+      <CalibrationFactor>1</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>8</ElectrometerID>
+      <Manufacturer>Standard Imaging</Manufacturer>
+      <ModelName>SuperMax</ModelName>
+      <SerialNumber>X222844</SerialNumber>
+      <Comment>Covenant Health - Lubbock</Comment>
+      <CalibrationDate>2024-10-16T00:00:00</CalibrationDate>
+      <CalibrationFactor>0.999</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>9</ElectrometerID>
+      <Manufacturer>Standard Imaging</Manufacturer>
+      <ModelName>CDX-2000B</ModelName>
+      <SerialNumber>J030104</SerialNumber>
+      <Comment>Coastal - Conway, SC</Comment>
+      <CalibrationDate>2023-06-06T00:00:00</CalibrationDate>
+      <CalibrationFactor>1</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>10</ElectrometerID>
+      <Manufacturer>TomoElectrometer</Manufacturer>
+      <SerialNumber>RL083091</SerialNumber>
+      <Comment>Berkshire</Comment>
+      <CalibrationDate>2023-12-08T00:00:00</CalibrationDate>
+      <CalibrationFactor>0.999</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>11</ElectrometerID>
+      <Manufacturer>IBA</Manufacturer>
+      <ModelName>DOSE-X</ModelName>
+      <SerialNumber>35652</SerialNumber>
+      <Comment>kit 1</Comment>
+      <CalibrationDate>2025-04-16T00:00:00</CalibrationDate>
+      <CalibrationFactor>1</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>12</ElectrometerID>
+      <Manufacturer>Keithly</Manufacturer>
+      <ModelName>35040</ModelName>
+      <SerialNumber>59954</SerialNumber>
+      <Comment>Lahey Peabody</Comment>
+      <CalibrationDate>2025-03-31T00:00:00</CalibrationDate>
+      <CalibrationFactor>1</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>13</ElectrometerID>
+      <Manufacturer>PTW</Manufacturer>
+      <ModelName>Unidose</ModelName>
+      <SerialNumber>283</SerialNumber>
+      <Comment>Lahey Peabody</Comment>
+      <CalibrationDate>2024-05-28T00:00:00</CalibrationDate>
+      <CalibrationFactor>0.999</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>14</ElectrometerID>
+      <Manufacturer>Standard Imaging</Manufacturer>
+      <ModelName>Max-4000</ModelName>
+      <SerialNumber>F130494</SerialNumber>
+      <Comment>Geisinger Pottsville</Comment>
+      <CalibrationDate>2024-11-15T00:00:00</CalibrationDate>
+      <CalibrationFactor>1</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>15</ElectrometerID>
+      <Manufacturer>IBA</Manufacturer>
+      <ModelName>DOSE-X</ModelName>
+      <SerialNumber>35653</SerialNumber>
+      <Comment>Kit 1 loaner</Comment>
+      <CalibrationDate>2025-05-13T00:00:00</CalibrationDate>
+      <CalibrationFactor>1</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>16</ElectrometerID>
+      <Manufacturer>Standard Imaging</Manufacturer>
+      <ModelName>Max-4000</ModelName>
+      <SerialNumber>E052147</SerialNumber>
+      <Comment>Geisinger Lewisburg</Comment>
+      <CalibrationDate>2023-10-05T00:00:00</CalibrationDate>
+      <CalibrationFactor>0.999</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>17</ElectrometerID>
+      <Manufacturer>Standard Imaging</Manufacturer>
+      <ModelName>Max-4000</ModelName>
+      <SerialNumber>E080145</SerialNumber>
+      <Comment>Geisinger Danville GMC</Comment>
+      <CalibrationDate>2024-10-01T00:00:00</CalibrationDate>
+      <CalibrationFactor>0.999</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>18</ElectrometerID>
+      <Manufacturer>Standard Imaging</Manufacturer>
+      <ModelName>Max-4000+</ModelName>
+      <SerialNumber>J250697</SerialNumber>
+      <Comment>Geisinger Dickson City</Comment>
+      <CalibrationDate>2025-03-25T00:00:00</CalibrationDate>
+      <CalibrationFactor>0.999</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>19</ElectrometerID>
+      <Manufacturer>Standard Imaging</Manufacturer>
+      <ModelName>Max-4000+</ModelName>
+      <SerialNumber>J202890</SerialNumber>
+      <Comment>Geisinger Lewistown</Comment>
+      <CalibrationDate>2024-06-21T00:00:00</CalibrationDate>
+      <CalibrationFactor>0.999</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>20</ElectrometerID>
+      <Manufacturer>TomoElectrometer</Manufacturer>
+      <SerialNumber>L191015</SerialNumber>
+      <Comment>Geisinger Danville GMC</Comment>
+      <CalibrationDate>2024-02-29T00:00:00</CalibrationDate>
+      <CalibrationFactor>0.998</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>21</ElectrometerID>
+      <Manufacturer>SNC</Manufacturer>
+      <ModelName>PCE</ModelName>
+      <SerialNumber>W213732006</SerialNumber>
+      <Comment>Ballad - BRMC</Comment>
+      <CalibrationDate>2025-07-22T00:00:00</CalibrationDate>
+      <CalibrationFactor>1.002</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>22</ElectrometerID>
+      <Manufacturer>SNC</Manufacturer>
+      <ModelName>PCE</ModelName>
+      <SerialNumber>W239067009</SerialNumber>
+      <Comment>Ballad - JCMC</Comment>
+      <CalibrationDate>2023-10-30T00:00:00</CalibrationDate>
+      <CalibrationFactor>1</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>23</ElectrometerID>
+      <Manufacturer>Fluke</Manufacturer>
+      <ModelName>35040</ModelName>
+      <SerialNumber>2406030</SerialNumber>
+      <Comment>Meritus Health JMCC</Comment>
+      <CalibrationDate>2025-01-14T00:00:00</CalibrationDate>
+      <CalibrationFactor>1</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>24</ElectrometerID>
+      <Manufacturer>PTW</Manufacturer>
+      <ModelName>Unidos</ModelName>
+      <SerialNumber>181612</SerialNumber>
+      <Comment>Carroll Hospital Westminster, MD</Comment>
+      <CalibrationDate>2024-04-05T00:00:00</CalibrationDate>
+      <CalibrationFactor>1</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>25</ElectrometerID>
+      <Manufacturer>SNC</Manufacturer>
+      <ModelName>PC Electrometetr</ModelName>
+      <SerialNumber>6343220-2009-12</SerialNumber>
+      <Comment>Norton-Brownsboro</Comment>
+      <CalibrationDate>2024-04-01T00:00:00</CalibrationDate>
+      <CalibrationFactor>1.002</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>26</ElectrometerID>
+      <Manufacturer>SNC</Manufacturer>
+      <ModelName>PC Electrometer</ModelName>
+      <SerialNumber>W229638010</SerialNumber>
+      <Comment>Norton-Brownsboro</Comment>
+      <CalibrationDate>2024-04-01T00:00:00</CalibrationDate>
+      <CalibrationFactor>0.998</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>27</ElectrometerID>
+      <Manufacturer>IBA</Manufacturer>
+      <ModelName>DOSE-X</ModelName>
+      <SerialNumber>37038</SerialNumber>
+      <Comment>kit 1</Comment>
+      <CalibrationDate>2025-05-21T00:00:00</CalibrationDate>
+      <CalibrationFactor>1</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>28</ElectrometerID>
+      <Manufacturer>Tomoelectrometer</Manufacturer>
+      <ModelName />
+      <SerialNumber>RL091872</SerialNumber>
+      <CalibrationDate>2025-05-15T00:00:00</CalibrationDate>
+      <CalibrationFactor>0.999</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>29</ElectrometerID>
+      <Manufacturer>Standard Imaging</Manufacturer>
+      <ModelName>SuperMax</ModelName>
+      <SerialNumber>P150191</SerialNumber>
+      <Comment>City of Hope Zion Chicago</Comment>
+      <CalibrationDate>2024-07-01T00:00:00</CalibrationDate>
+      <CalibrationFactor>0.999</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>30</ElectrometerID>
+      <Manufacturer>Standard Imaging</Manufacturer>
+      <ModelName>SuperMax</ModelName>
+      <SerialNumber>P122681</SerialNumber>
+      <Comment>City of Hope Zion Chicago</Comment>
+      <CalibrationDate>2024-09-09T00:00:00</CalibrationDate>
+      <CalibrationFactor>0.9999</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>31</ElectrometerID>
+      <Manufacturer>SNC</Manufacturer>
+      <ModelName>PCE</ModelName>
+      <SerialNumber>249603002</SerialNumber>
+      <Comment>BVHS</Comment>
+      <CalibrationDate>2025-12-11T00:00:00</CalibrationDate>
+      <CalibrationFactor>1.003</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>32</ElectrometerID>
+      <Manufacturer>PTW</Manufacturer>
+      <ModelName>Unidose-E</ModelName>
+      <SerialNumber>00147</SerialNumber>
+      <Comment>BVHS</Comment>
+      <CalibrationDate>2025-02-03T00:00:00</CalibrationDate>
+      <CalibrationFactor>0.999</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>33</ElectrometerID>
+      <Manufacturer>Standard Imaging</Manufacturer>
+      <ModelName>SuperMax</ModelName>
+      <SerialNumber>Q183378</SerialNumber>
+      <Comment>HSHS St. Vincent</Comment>
+      <CalibrationDate>2025-07-09T00:00:00</CalibrationDate>
+      <CalibrationFactor>0.999</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>34</ElectrometerID>
+      <Manufacturer>IBA</Manufacturer>
+      <ModelName>DOSE-X</ModelName>
+      <SerialNumber>37038</SerialNumber>
+      <CalibrationDate>2025-05-21T00:00:00</CalibrationDate>
+      <CalibrationFactor>1</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>35</ElectrometerID>
+      <Manufacturer>Standard Imaging</Manufacturer>
+      <ModelName>Max-4000</ModelName>
+      <SerialNumber>J240815</SerialNumber>
+      <Comment>Umass Harrington</Comment>
+      <CalibrationDate>2026-04-10T00:00:00</CalibrationDate>
+      <CalibrationFactor>0.999</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>36</ElectrometerID>
+      <Manufacturer>SNC</Manufacturer>
+      <ModelName>PC Electrometer</ModelName>
+      <SerialNumber>247497007</SerialNumber>
+      <Comment>UW Beloit</Comment>
+      <CalibrationDate>2026-02-23T00:00:00</CalibrationDate>
+      <CalibrationFactor>1</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>37</ElectrometerID>
+      <Manufacturer>PTW</Manufacturer>
+      <ModelName>Unidos Romeo TN10053</ModelName>
+      <SerialNumber>181708</SerialNumber>
+      <Comment>Lahey Burlington</Comment>
+      <CalibrationDate>2024-09-05T00:00:00</CalibrationDate>
+      <CalibrationFactor>0.999</CalibrationFactor>
+    </Electrometer>
+    <Electrometer>
+      <ElectrometerID>38</ElectrometerID>
+      <Manufacturer>Standard Imaging</Manufacturer>
+      <ModelName>Max-4000</ModelName>
+      <SerialNumber>F113262</SerialNumber>
+      <Comment>MultiCare Yakima</Comment>
+      <CalibrationDate>2025-04-21T00:00:00</CalibrationDate>
+      <CalibrationFactor>0.999</CalibrationFactor>
+    </Electrometer>
+  </Electrometers>
+</ElectrometerList>
