@@ -15,10 +15,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="..\V1.1.0.0\V1.1.0.0\dist\TankBridgeRuntime\**\*">
-      <Link>TankBridgeRuntime\%(RecursiveDir)%(Filename)%(Extension)</Link>
+    <Content Include="TankBridgeRuntime\**\*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Remove="TankBridgeRuntime\bridge\measurement-results\**\*" />
+    <Content Remove="TankBridgeRuntime\wwwroot\*.log" />
     <Content Include="xml\**\*.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

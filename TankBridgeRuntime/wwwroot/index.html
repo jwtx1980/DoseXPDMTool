@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tank Movement Controller</title>
+    <link rel="stylesheet" href="styles.css?v=20260708-queue-detector-mode">
+  </head>
+  <body>
+    <main class="controller-shell">
+      <header class="topbar">
+        <div class="title-block">
+          <h1>Tank Movement Control</h1>
+          <div class="subtitle-row">
+            <span id="modeBadge" class="badge good">Local API</span>
+            <span id="endpointText">169.254.40.1:1222</span>
+          </div>
+        </div>
+        <div class="connection-actions" aria-label="Connection controls">
+          <button id="connectButton" type="button" class="primary">Connect</button>
+          <button id="disconnectButton" type="button" disabled>Disconnect</button>
+          <div id="statusPill" class="status-pill disconnected">Disconnected</div>
+        </div>
+      </header>
+
+      <section class="workspace-grid">
+        <section class="panel target-panel" aria-label="Target position controls">
+          <div class="section-heading">
+            <h2>Control</h2>
+            <span id="targetState" class="badge neutral">Ready</span>
+          </div>
+
+          <div class="setup-ribbon">
+            <div id="workflowSteps" class="workflow-steps" aria-label="Setup readiness"></div>
+
+            <div class="setup-grid">
+              <label class="mode-control">
+                <span>Detector mode</span>
+                <select id="detectorModeSelect">
+                  <option value="fieldOnly">Field only</option>
+                  <option value="fieldReference" selected>Field + reference</option>
+                </select>
+              </label>
+              <label class="bias-control">
+                <span>Bias / HV</span>
+                <select id="biasModeSelect">
+                  <option value="zero" selected>0 V diode safe</option>
+                  <option value="off">Send HV off</option>
+                  <option value="apply">Apply configured HV</option>
+                </select>
+              </label>
+              <label>
+                <span>Centering width mm</span>
+                <input id="centeringWidthInput" type="number" min="20" max="500" step="1" value="300">
+              </label>
+            </div>
+
+            <div class="sensitivity-grid compact-sensitivity-grid" aria-label="Electrometer sensitivity controls">
+              <label>
+                <span>Field sensitivity</span>
+                <select id="fieldSensitivitySelect">
+                  <option value="low" selected>Low sensitivity</option>
+                  <option value="normal">Normal</option>
+                  <option value="high">High sensitivity</option>
+                </select>
+              </label>
+              <label>
+                <span>Reference sensitivity</span>
+                <select id="referenceSensitivitySelect">
+                  <option value="low" selected>Low sensitivity</option>
+                  <option value="normal">Normal</option>
+                  <option value="high">High sensitivity</option>
+                </select>
+              </label>
+              <button id="applySensitivityButton" type="button" disabled>Apply Sensitivity</button>
+            </div>
+          </div>
+
+          <div class="target-live-grid">
+            <div class="target-control-column">
+              <div class="target-grid compact-target-grid">
+                <label>
+                  <span>Crossline from iso / X mm</span>
+                  <input id="crosslineInput" type="number" min="-1000" max="1000" step="0.001" value="0.000">
+                </label>
+                <label>
+                  <span>Inline from iso / Y mm</span>
+                  <input id="inlineInput" type="number" min="-1000" max="1000" step="0.001" value="0.000">
+                </label>
+                <label>
+                  <span>Vertical from iso / Z mm</span>
+                  <input id="depthInput" type="number" min="-1000" max="1000" step="0.001" value="0.000">
+                </label>
+                <label>
+                  <span>Speed mm/s</span>
+                  <input id="speedInput" type="number" min="-1000" max="1000" step="0.001" value="20.000">
+                </label>
+              </div>
+
+              <div class="command-grid compact-command-grid" aria-label="Movement controls">
+                <button id="sendMoveButton" type="button" class="primary" disabled>Move to Relative Target</button>
+                <button id="goIsocenterButton" type="button" disabled>Go Isocenter</button>
+                <button id="goSurfaceButton" type="button" disabled>Go Surface</button>
+                <button id="biasButton" type="button" class="workflow-legacy" disabled>Bias/HV</button>
+                <button id="biasOffButton" type="button" class="workflow-legacy" disabled>Bias Off</button>
+                <button id="backgroundButton" type="button" class="workflow-legacy" disabled>Background</button>
+                <button id="normalizeButton" type="button" class="workflow-legacy" disabled>Normalize</button>
+                <button id="prepareButton" type="button" class="primary workflow-legacy" disabled>Prepare to Scan</button>
+              </div>
+
+              <div class="control-status-grid" aria-label="Position and signal status">
+                <div class="metric wide">
+                  <span>Relative position</span>
+                  <strong id="positionText">-</strong>
+                </div>
+                <div class="metric wide">
+                  <span>Signal health</span>
+                  <strong id="signalText">No live chamber signal</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="target-live-column" aria-label="Live chamber readings">
+              <div class="section-heading">
+                <h2>Live Chamber Readings</h2>
+              </div>
+              <div class="chamber-meter-grid" aria-label="Live chamber meters">
+                <div class="chamber-meter field-meter">
+                  <span>Field</span>
+                  <div class="meter-frame" aria-hidden="true">
+                    <div id="fieldMeterFill" class="meter-fill"></div>
+                  </div>
+                  <strong id="fieldMeterText">-</strong>
+                </div>
+                <div id="referenceMeter" class="chamber-meter reference-meter">
+                  <span>Reference</span>
+                  <div class="meter-frame" aria-hidden="true">
+                    <div id="referenceMeterFill" class="meter-fill"></div>
+                  </div>
+                  <strong id="referenceMeterText">-</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="panel queue-panel" aria-label="OPAB queue runner">
+        <div class="section-heading">
+          <h2>OPAB Queue Runner</h2>
+          <span id="queueState" class="badge neutral">No queue loaded</span>
+        </div>
+
+        <div class="queue-toolbar">
+          <label class="path-input">
+            <span>OPAB path</span>
+            <input id="opabPathInput" type="text" value="C:\Users\jwtx1\Desktop\06PHO00.opab">
+          </label>
+          <input id="opabFileInput" type="file" accept=".opab" hidden>
+          <button id="loadOpabButton" type="button">Load OPAB</button>
+          <div class="queue-actions">
+            <label class="checkbox-label queue-check-all">
+              <input id="queueCheckAllInput" type="checkbox" disabled>
+              <span>Check all</span>
+            </label>
+            <button id="runQueueButton" type="button" class="primary" disabled>Run Selected</button>
+            <button id="abortQueueButton" type="button" disabled>Abort Queue</button>
+          </div>
+        </div>
+
+        <div class="queue-basis" hidden aria-hidden="true">
+          <label>
+            <span>Center X</span>
+            <input id="queueCenterXInput" type="number" step="0.001" value="">
+          </label>
+          <label>
+            <span>Center Y</span>
+            <input id="queueCenterYInput" type="number" step="0.001" value="">
+          </label>
+          <label>
+            <span>Surface Z</span>
+            <input id="queueSurfaceZInput" type="number" step="0.001" value="">
+          </label>
+          <label>
+            <span>Crossline Y</span>
+            <input id="queueCrosslineYInput" type="number" step="0.001" value="-1.000">
+          </label>
+        </div>
+
+        <div class="queue-table-wrap">
+          <table class="queue-table">
+            <thead>
+              <tr>
+                <th>Run</th>
+                <th>Idx</th>
+                <th>Type</th>
+                <th>Template</th>
+                <th>Field C/I</th>
+                <th>Depth</th>
+                <th>Travel</th>
+                <th>Speed</th>
+                <th>Step</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="queueItemsBody">
+              <tr><td colspan="10">Load an OPAB to inspect queue items.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel result-panel" aria-label="Completed scan viewer">
+        <div class="section-heading">
+          <h2>Completed Scan</h2>
+          <div class="result-actions">
+            <span id="scanResultState" class="badge neutral">Click a completed queue item</span>
+            <a id="scanResultJsonLink" href="#" target="_blank" rel="noreferrer" hidden>JSON</a>
+            <a id="scanResultAscLink" href="#" target="_blank" rel="noreferrer" hidden>ASC</a>
+          </div>
+        </div>
+        <div class="scan-result-summary" id="scanResultSummary">No scan selected.</div>
+        <canvas id="scanResultCanvas" width="1200" height="360"></canvas>
+      </section>
+
+      <section class="lower-grid">
+        <section class="panel log-panel" aria-label="Controller log">
+          <div class="section-heading">
+            <h2>Log</h2>
+            <button id="clearLogButton" type="button">Clear</button>
+          </div>
+          <pre id="logOutput" aria-live="polite"></pre>
+        </section>
+      </section>
+    </main>
+
+    <script src="workflow-readiness.js?v=20260708-queue-detector-mode"></script>
+    <script src="app.js?v=20260708-queue-detector-mode"></script>
+  </body>
+</html>

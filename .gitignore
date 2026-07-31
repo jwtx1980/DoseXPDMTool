@@ -3,3 +3,5 @@ bin/
 obj/
 tmp/
 *.user
+TankBridgeRuntime/bridge/measurement-results/
+TankBridgeRuntime/wwwroot/*.log
