@@ -86,6 +86,7 @@ namespace DoseXPDMTool
         private const string Tg51BridgeFirewallRuleName = "TG-51 Tank Bridge Inbound";
         private const string Tg51BridgeInstallFolderName = "TG51TankBridge";
         private const string Tg51BridgeRuntimeFolderName = "TankBridgeRuntime";
+        private const string Tg51BridgeFirewallCacheFileName = "Tg51BridgeFirewallStatus.json";
         private static readonly TimeSpan Tg51LiveCallbackFreshness = TimeSpan.FromSeconds(5);
         private readonly Dictionary<Tg51Point, int> tg51ActiveBiasByPoint = new Dictionary<Tg51Point, int>();
         private readonly CheckedListBox Tg51EnergyList = new CheckedListBox();
@@ -1600,22 +1601,40 @@ namespace DoseXPDMTool
                 throw new InvalidOperationException("The tank bridge is running, but it did not identify as the expected TG-51 tank bridge.");
             }
 
+            await EnsureTg51BridgeFirewallReadyAsync();
+        }
+
+        private async Task EnsureTg51BridgeFirewallReadyAsync()
+        {
+            if (IsTg51BridgeFirewallCachePassed())
+            {
+                Tg51BridgeStatus.Text = "Firewall previously verified";
+                return;
+            }
+
             Tg51BridgeStatus.Text = "Checking firewall...";
             var firewall = await CheckTg51BridgeFirewallAsync();
+            if (firewall.IsOk)
+            {
+                SaveTg51BridgeFirewallCache(true, firewall.Message);
+                return;
+            }
+
+            SaveTg51BridgeFirewallCache(false, firewall.Message);
+            bool repaired = await OfferTg51FirewallRepairAsync(firewall.Message);
+            if (!repaired)
+            {
+                throw new InvalidOperationException("The TG-51 tank bridge firewall rule is not ready. " + firewall.Message);
+            }
+
+            firewall = await CheckTg51BridgeFirewallAsync();
             if (!firewall.IsOk)
             {
-                bool repaired = await OfferTg51FirewallRepairAsync(firewall.Message);
-                if (!repaired)
-                {
-                    throw new InvalidOperationException("The TG-51 tank bridge firewall rule is not ready. " + firewall.Message);
-                }
-
-                firewall = await CheckTg51BridgeFirewallAsync();
-                if (!firewall.IsOk)
-                {
-                    throw new InvalidOperationException("The TG-51 tank bridge firewall rule still is not ready after the repair attempt. " + firewall.Message);
-                }
+                SaveTg51BridgeFirewallCache(false, firewall.Message);
+                throw new InvalidOperationException("The TG-51 tank bridge firewall rule still is not ready after the repair attempt. " + firewall.Message);
             }
+
+            SaveTg51BridgeFirewallCache(true, firewall.Message);
         }
 
         private async Task<bool> IsExpectedTg51BridgeAsync(string baseUrl)
@@ -1742,6 +1761,62 @@ namespace DoseXPDMTool
         private string GetInstalledTg51BridgeFirewallHelperPath()
         {
             return Path.Combine(GetInstalledTg51BridgeRoot(), "Allow-TankBridgeRuntimeFirewall.cmd");
+        }
+
+        private string GetTg51BridgeFirewallCachePath()
+        {
+            string directory = Path.Combine(
+                Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
+                "AQAFT",
+                "DoseXPDMTool");
+            Directory.CreateDirectory(directory);
+            return Path.Combine(directory, Tg51BridgeFirewallCacheFileName);
+        }
+
+        private bool IsTg51BridgeFirewallCachePassed()
+        {
+            try
+            {
+                string path = GetTg51BridgeFirewallCachePath();
+                if (!File.Exists(path))
+                {
+                    return false;
+                }
+
+                JObject cache = JObject.Parse(File.ReadAllText(path));
+                string status = cache["status"]?.ToString() ?? string.Empty;
+                string ruleName = cache["ruleName"]?.ToString() ?? string.Empty;
+                string bridgeExe = cache["bridgeExePath"]?.ToString() ?? string.Empty;
+
+                return string.Equals(status, "Passed", StringComparison.OrdinalIgnoreCase)
+                    && string.Equals(ruleName, Tg51BridgeFirewallRuleName, StringComparison.OrdinalIgnoreCase)
+                    && string.Equals(Path.GetFullPath(bridgeExe), Path.GetFullPath(GetInstalledTg51BridgeExePath()), StringComparison.OrdinalIgnoreCase)
+                    && File.Exists(bridgeExe);
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        private void SaveTg51BridgeFirewallCache(bool passed, string message)
+        {
+            try
+            {
+                JObject cache = new JObject
+                {
+                    ["status"] = passed ? "Passed" : "Failed",
+                    ["updatedAt"] = DateTimeOffset.Now.ToString("O", CultureInfo.InvariantCulture),
+                    ["ruleName"] = Tg51BridgeFirewallRuleName,
+                    ["bridgeExePath"] = GetInstalledTg51BridgeExePath(),
+                    ["message"] = message
+                };
+                File.WriteAllText(GetTg51BridgeFirewallCachePath(), cache.ToString(Formatting.Indented));
+            }
+            catch
+            {
+                // Firewall cache failures should not block clinical use.
+            }
         }
 
         private async Task<(bool IsOk, string Message)> CheckTg51BridgeFirewallAsync()
@@ -1968,7 +2043,9 @@ namespace DoseXPDMTool
                 await Task.Delay(500);
             }
 
-            throw new TimeoutException("The tank bridge connected, but live tank callback telemetry did not arrive. Windows Firewall may be blocking the CCU callback to the TG-51 Tank Bridge. Run the bundled Tank Bridge Runtime installer or firewall repair as Administrator, then restart the bridge and connect again.");
+            string timeoutMessage = "The tank bridge connected, but live tank callback telemetry did not arrive. Windows Firewall may be blocking the CCU callback to the TG-51 Tank Bridge. Run the bundled Tank Bridge Runtime installer or firewall repair as Administrator, then restart the bridge and connect again.";
+            SaveTg51BridgeFirewallCache(false, timeoutMessage);
+            throw new TimeoutException(timeoutMessage);
         }
 
         private bool HasRecentTg51Callback(JObject state)
