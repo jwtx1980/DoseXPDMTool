@@ -413,11 +413,11 @@ namespace DoseXPDMTool
             // 
             Tg51Bias300List.FormattingEnabled = true;
             Tg51Bias300List.ItemHeight = 20;
-            Tg51Bias300List.Location = new Point(48, 233);
+            Tg51Bias300List.Location = new Point(366, 233);
             Tg51Bias300List.Margin = new Padding(3, 4, 3, 4);
             Tg51Bias300List.Name = "Tg51Bias300List";
             Tg51Bias300List.Size = new Size(135, 224);
-            Tg51Bias300List.TabIndex = 22;
+            Tg51Bias300List.TabIndex = 24;
             Tg51Bias300List.Click += Tg51Bias300Bucket_Selected;
             Tg51Bias300List.Enter += Tg51Bias300Bucket_Selected;
             // 
@@ -425,11 +425,11 @@ namespace DoseXPDMTool
             // 
             Tg51BiasNeg300List.FormattingEnabled = true;
             Tg51BiasNeg300List.ItemHeight = 20;
-            Tg51BiasNeg300List.Location = new Point(207, 233);
+            Tg51BiasNeg300List.Location = new Point(48, 233);
             Tg51BiasNeg300List.Margin = new Padding(3, 4, 3, 4);
             Tg51BiasNeg300List.Name = "Tg51BiasNeg300List";
             Tg51BiasNeg300List.Size = new Size(135, 224);
-            Tg51BiasNeg300List.TabIndex = 23;
+            Tg51BiasNeg300List.TabIndex = 22;
             Tg51BiasNeg300List.Click += Tg51BiasNeg300Bucket_Selected;
             Tg51BiasNeg300List.Enter += Tg51BiasNeg300Bucket_Selected;
             // 
@@ -437,40 +437,40 @@ namespace DoseXPDMTool
             // 
             Tg51Bias150List.FormattingEnabled = true;
             Tg51Bias150List.ItemHeight = 20;
-            Tg51Bias150List.Location = new Point(366, 233);
+            Tg51Bias150List.Location = new Point(207, 233);
             Tg51Bias150List.Margin = new Padding(3, 4, 3, 4);
             Tg51Bias150List.Name = "Tg51Bias150List";
             Tg51Bias150List.Size = new Size(135, 224);
-            Tg51Bias150List.TabIndex = 24;
+            Tg51Bias150List.TabIndex = 23;
             Tg51Bias150List.Click += Tg51Bias150Bucket_Selected;
             Tg51Bias150List.Enter += Tg51Bias150Bucket_Selected;
             // 
             // Tg51Bias300Label
             // 
             Tg51Bias300Label.AutoSize = true;
-            Tg51Bias300Label.Location = new Point(48, 209);
+            Tg51Bias300Label.Location = new Point(366, 209);
             Tg51Bias300Label.Name = "Tg51Bias300Label";
-            Tg51Bias300Label.Size = new Size(56, 20);
+            Tg51Bias300Label.Size = new Size(119, 20);
             Tg51Bias300Label.TabIndex = 25;
-            Tg51Bias300Label.Text = "+300 V";
+            Tg51Bias300Label.Text = "Output (+300 V)";
             // 
             // Tg51BiasNeg300Label
             // 
             Tg51BiasNeg300Label.AutoSize = true;
-            Tg51BiasNeg300Label.Location = new Point(207, 209);
+            Tg51BiasNeg300Label.Location = new Point(48, 209);
             Tg51BiasNeg300Label.Name = "Tg51BiasNeg300Label";
-            Tg51BiasNeg300Label.Size = new Size(52, 20);
+            Tg51BiasNeg300Label.Size = new Size(127, 20);
             Tg51BiasNeg300Label.TabIndex = 26;
-            Tg51BiasNeg300Label.Text = "-300 V";
+            Tg51BiasNeg300Label.Text = "Opposite (-300 V)";
             // 
             // Tg51Bias150Label
             // 
             Tg51Bias150Label.AutoSize = true;
-            Tg51Bias150Label.Location = new Point(366, 209);
+            Tg51Bias150Label.Location = new Point(207, 209);
             Tg51Bias150Label.Name = "Tg51Bias150Label";
-            Tg51Bias150Label.Size = new Size(37, 20);
+            Tg51Bias150Label.Size = new Size(96, 20);
             Tg51Bias150Label.TabIndex = 27;
-            Tg51Bias150Label.Text = "50%";
+            Tg51Bias150Label.Text = "50% (+150 V)";
             // 
             // Tg51MoveDepthAuto
             // 

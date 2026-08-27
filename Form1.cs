@@ -63,9 +63,9 @@ namespace DoseXPDMTool
         private const int Tg51ReadingsPerBias = 3;
         private const int Tg51BiasTransitionDelayMs = 5000;
         private const int Tg51ReadingsPerPoint = 9;
-        private readonly int[] tg51BiasSequence = { 300, -300, 150 };
+        private readonly int[] tg51BiasSequence = { -300, 150, 300 };
         private bool tg51TransitionInProgress = false;
-        private int expectedBiasVoltage = 300;
+        private int expectedBiasVoltage = -300;
         private Tg51Run tg51Run;
         private Tg51RunLogger tg51Logger;
         private int tg51CurrentPointIndex = -1;
@@ -2359,6 +2359,11 @@ namespace DoseXPDMTool
                 : currentBias;
         }
 
+        private int GetInitialTg51Bias()
+        {
+            return tg51BiasSequence[0];
+        }
+
         private bool HasTg51MinimumReadings(Tg51Point point)
         {
             return tg51BiasSequence.All(bias => GetTg51BiasReadingCount(point, bias) >= Tg51ReadingsPerBias);
@@ -2838,6 +2843,23 @@ namespace DoseXPDMTool
             await StartMeasurementAsync();
         }
 
+        private async Task ApplyTg51BiasForEnergyChangeAsync(Tg51Point point)
+        {
+            int bias = GetActiveTg51Bias(point);
+            expectedBiasVoltage = bias;
+
+            if (!doseXConnected || wsClient?.State != WebSocketState.Open)
+            {
+                RefreshTg51View();
+                return;
+            }
+
+            await RunTg51WaitModalAsync(
+                $"Wait while bias stabilizes at {FormatTg51BiasLabel(bias)}.",
+                async () => await SetActiveTg51BiasAsync(point, bias, transition: false),
+                Tg51ManualBiasSettleDelayMs);
+        }
+
         private string FormatTg51BiasLabel(int bias)
         {
             return bias == 150 ? "50% (+150 V)" : $"{bias:+#;-#;0} V";
@@ -2931,14 +2953,6 @@ namespace DoseXPDMTool
                 return false;
             }
 
-            if (Tg51Bias300List.SelectedIndex >= 0)
-            {
-                bias = 300;
-                selectedIndex = Tg51Bias300List.SelectedIndex;
-                selectedList = Tg51Bias300List;
-                return true;
-            }
-
             if (Tg51BiasNeg300List.SelectedIndex >= 0)
             {
                 bias = -300;
@@ -2952,6 +2966,14 @@ namespace DoseXPDMTool
                 bias = 150;
                 selectedIndex = Tg51Bias150List.SelectedIndex;
                 selectedList = Tg51Bias150List;
+                return true;
+            }
+
+            if (Tg51Bias300List.SelectedIndex >= 0)
+            {
+                bias = 300;
+                selectedIndex = Tg51Bias300List.SelectedIndex;
+                selectedList = Tg51Bias300List;
                 return true;
             }
 
@@ -3051,7 +3073,7 @@ namespace DoseXPDMTool
 
                 if (point.Readings.Count == 0)
                 {
-                    tg51ActiveBiasByPoint[point] = 300;
+                    tg51ActiveBiasByPoint[point] = GetInitialTg51Bias();
                 }
 
                 point.Status = HasTg51MinimumReadings(point) ? "Complete" : "Active";
@@ -3067,6 +3089,8 @@ namespace DoseXPDMTool
                         3000);
                     await RefreshSelectedTg51TankStateAsync();
                 }
+
+                await ApplyTg51BiasForEnergyChangeAsync(point);
             }
             finally
             {
@@ -3085,7 +3109,7 @@ namespace DoseXPDMTool
             point.Readings.Clear();
             point.Status = "Active";
             tg51RunActive = true;
-            tg51ActiveBiasByPoint[point] = 300;
+            tg51ActiveBiasByPoint[point] = GetInitialTg51Bias();
             ClearPendingTg51Overwrite();
             SaveTg51Run();
             RefreshTg51View();
